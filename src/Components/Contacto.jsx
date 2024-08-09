@@ -3,7 +3,7 @@ import "../../styles/Contacto.css";
 
 function Contacto() {
   return (
-    <section class="row">
+    <section class="row" id="contacto">
       <div class="col-md-12">
         <form class="form">
           <p class="contact">Contacto</p>

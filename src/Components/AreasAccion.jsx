@@ -3,7 +3,7 @@ import "../../styles/AreasAccion.css";
 
 function AreasAccion() {
   return (
-    <section class="row">
+    <section class="row" id="areas-accion">
       <div class="col-md-12">
         <h1 class="accion">Áreas de Acción</h1>
       </div>
@@ -14,7 +14,7 @@ function AreasAccion() {
             <div class="card">
               <div class="card-body">
                 <img
-                  src="./img/PazJusticiaInstituciones.png"
+                  src="/img/PazJusticiaInstituciones.png"
                   class="card-img-top"
                   alt="..."
                 />
@@ -33,7 +33,7 @@ function AreasAccion() {
             <div class="card">
               <div class="card-body">
                 <img
-                  src="./img/IndustriaInnovacion.png"
+                  src="/img/IndustriaInnovacion.png"
                   class="card-img-top"
                   alt="..."
                 />
@@ -55,7 +55,7 @@ function AreasAccion() {
             <div class="card">
               <div class="card-body">
                 <img
-                  src="./img/AccionPorElClima.png"
+                  src="/img/AccionPorElClima.png"
                   class="card-img-top"
                   alt="..."
                 />

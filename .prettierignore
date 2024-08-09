@@ -1,0 +1,9 @@
+dist
+package-lock.json
+yarn.lock
+.prettierrc
+.eslintrc.cjs
+public/imgs
+public/locales
+public/css/ga-styles.scss
+public/css/ga-styles.css

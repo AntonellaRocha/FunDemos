@@ -24,13 +24,14 @@ body {
     text-align: justify;
     margin-bottom: 20px;
     text-indent: 20px;
+    font-size: 25px;
 }
 
-
-/* Estilos de la imagen Objetivos */
-
-.img-fluid {
-    object-fit: cover;
-    margin: auto;
-    padding: 30px 60px;
+.parrafo {
+    margin-bottom: 20px;
+    text-align:initial;
+    text-indent: 30px;
+    line-height: 1.6;
+    letter-spacing: 0.5px;
+    font-size: 25px;
 }

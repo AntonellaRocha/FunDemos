@@ -16,17 +16,17 @@ function Footer() {
         </a>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
-            <li 
-            class={`nav-item ${selectedItem === "quienes-somos" ? "selected" : ""}`}
-            onClick={() => HandleClick("quienes-somos")}
+            <li
+              class={`nav-item ${selectedItem === "quienes-somos" ? "selected" : ""}`}
+              onClick={() => HandleClick("quienes-somos")}
             >
               <a class="nav-link" href="#quienes-somos">
                 ¿Quiénes somos?
               </a>
             </li>
-            <li 
-            class={`nav-item ${selectedItem === "areas-accion" ? "selected" : ""}`}
-            onClick={() => HandleClick("areas-accion")}
+            <li
+              class={`nav-item ${selectedItem === "areas-accion" ? "selected" : ""}`}
+              onClick={() => HandleClick("areas-accion")}
             >
               <a class="nav-link" href="#areas-accion" id="areas-accion">
                 Áreas de Acción

@@ -24,14 +24,11 @@ function SobreNosotros() {
           nuestro ambiente.
         </p>
         <h1 class="titulo">¿Qué nos mueve?</h1>
-        <p class="texto">
+        <p class="parrafo">
           Trabajamos alineados a los ODS adoptados por las Naciones Unidas,
           enfocándonos en las áreas donde podemos realizar mayores aportes en
           relación a nuestro propósito
         </p>
-        <div>
-        <img src="public/img/LOGO OBJETIVOS.png" class="img-fluid w-100" alt="logo"></img>
-        </div>
       </div>
     </section>
   );

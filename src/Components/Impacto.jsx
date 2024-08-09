@@ -3,9 +3,9 @@ import "../../styles/Impacto.css";
 
 function Impacto() {
   return (
-    <section class="row">
+    <section class="row" id="impacto">
       <div class="col-md-12">
-        <h1 class="impacto">Impacto</h1>
+        <h1 class="titulo">Impacto</h1>
         <p class="texto">
           10 días increíbles en los que 12 chicos y chicas de las fundaciones
           “Media Pila”, “Empujar” e “Integrar”, pudieron poner en práctica lo
@@ -52,24 +52,21 @@ function Impacto() {
         <div class="carousel-inner">
           <div class="carousel-item active">
             <img
-              src="public/img/PazJusticiaInstituciones.png"
+              src="img/PazJusticiaInstituciones.png"
               class="d-block w-100"
-              alt="imagen1"
-            />
+              alt="imagen1" />
           </div>
           <div class="carousel-item">
             <img
-              src="public/img/IndustriaInnovacion.png"
+              src="img/IndustriaInnovacion.png"
               class="d-block w-100"
-              alt="imagen2"
-            />
+              alt="imagen2" />
           </div>
           <div class="carousel-item">
             <img
-              src="public/img/AccionPorElClima.png"
+              src="img/AccionPorElClima.png"
               class="d-block w-100"
-              alt="imagen3"
-            />
+              alt="imagen3" />
           </div>
         </div>
         <button
@@ -96,16 +93,17 @@ function Impacto() {
         compensación ambiental, de Grupo MSA
       </h2>
       
-      <p class="texto">Estamos trabajando en el diagnóstico, reporte de sustentabilidad 2023 y programa de
-        compensación ambiental, de Grupo MSA, la empresa de tecnología Argentina que está
-        generando un alto impacto de innovación en toda la región con sus proyectos electorales, de
-        entretenimiento tecnológico y de diseño.
+      <p class="text">
+        <strong>Estamos trabajando en el diagnóstico, reporte de sustentabilidad 2025 y programa de
+        compensación ambiental, de Grupo MSA, la empresa de tecnología Argentina que está 
+        generando un alto impacto de innovación en toda la región con sus proyectos electorales,
+        de entretenimiento tecnológico y de diseño.</strong>
       </p>
 
-      <p class="texto">
-        De este modo acompañamos a la empresa en su objetivo de continuar innovando con su
-        tecnología a las sociedades alrededor de la región enfocándose en reducir el impacto ambiental
-        de sus proyectos.
+      <p class="text">
+        <strong>De este modo acompañamos a la empresa en su objetivo de continuar innovando con su
+        tecnología a las sociedades alrededor de la región enfocándose
+        en reducir el impacto ambiental de sus proyectos.</strong>
       </p>
 
     </section>

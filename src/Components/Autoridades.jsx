@@ -3,7 +3,7 @@ import "../../styles/Autoridades.css";
 
 function autoridades() {
   return (
-    <section class="row">
+    <section class="row" id="autoridades">
       <div class="col-md-12">
         <h1 class="autoridades">Autoridades</h1>
       </div>
@@ -29,8 +29,8 @@ function autoridades() {
     </h2>
     <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
       <div class="accordion-body">
-        <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-      </div>
+      Apasionado profesional con orígenes en el mundo del marketing, y marcada orientación a la gestión de personas, la comunicación, la construcción de estrategia organizacional y el desarrollo de negocios.
+      Desde diferentes roles, llevo más de 20 años trabajando en múltiples desafíos de comunicación, desarrollo organizacional, posicionamiento y transformación cultural con diferentes empresas, equipos y profesionales. He liderado procesos de start up y profesionalización de áreas de Marketing, RRHH y Fundaciones, en diferentes organizaciones.      </div>
     </div>
   </div>
   <div class="accordion-item">
@@ -41,8 +41,8 @@ function autoridades() {
     </h2>
     <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
       <div class="accordion-body">
-        <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-      </div>
+      Soy Licenciada en Economía con 10 años de experiencia en la optimización de metodologías de trabajo y la administración eficiente de recursos. He desarrollado mi carrera en sectores transversales de la compañía, como compras, planificación y recursos humanos. Actualmente, me enfoco en dejar mi huella en el control de gestión regional.
+      Confiable, responsable y comprometida, siempre busco dar lo mejor de mí en todo lo que hago. Disfruto de compartir buenos momentos con amigos y familiares, especialmente alrededor de un mate y una buena charla. Valoro la honestidad y la comunicación abierta, y me encanta conectar con las personas a través de conversaciones significativas.      </div>
     </div>
   </div>
 </div>
