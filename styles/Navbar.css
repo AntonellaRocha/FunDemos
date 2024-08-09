@@ -1,0 +1,38 @@
+.navbar {
+    background-color: white !important;
+  }
+  
+ /*  .nav-item .nav-link{
+    transition:  0.3s ease-in-out;
+  }
+  
+  .nav-item.selected .nav-link{
+    border: 2px solid red !important;
+    border-radius: 5px;
+    color: white;
+    background-color: red;
+  }  */
+
+.navbar-brand-logo{
+    bottom: auto;
+}
+
+.nav-link{
+    width: 100%;
+    display: flex;
+    gap: 16px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+  
+.contacto{
+    border: 2px solid red !important;
+    border-radius: 5px;
+    background-color: red;
+}
+  
+.contacto a{
+    color: white;
+}
+  

@@ -1,0 +1,31 @@
+.accion{
+  text-align: center;
+  font-weight: bold;
+}
+
+
+.card-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.card-body {
+  padding: 50px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 150px ; 
+  max-width: 25rem;
+  border: 1px solid #000000;
+}
+
+/* .card img {
+
+} */

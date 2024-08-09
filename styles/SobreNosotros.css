@@ -1,0 +1,36 @@
+/* Estilos generales del body*/
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6; /* Espacio entre lineas */
+    margin: 0;
+    padding: 0;
+}
+
+
+/* estilo del titulo */
+.titulo{
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 1.6;
+    letter-spacing: 0.5px;
+    word-spacing: 1px;
+    font-weight: bold;
+}
+
+/* estilos del p */
+.texto{
+    text-align: justify;
+    margin-bottom: 20px;
+    text-indent: 20px;
+}
+
+
+/* Estilos de la imagen Objetivos */
+
+.img-fluid {
+    object-fit: cover;
+    margin: auto;
+    padding: 30px 60px;
+}

@@ -1,0 +1,150 @@
+.group {
+    position: relative;
+  }
+  
+  .form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    border: 1px solid white;
+    padding: 120px 40px;
+    padding-top: 60px;
+    padding-bottom: 90px;
+    padding-right: 40px;
+    padding-left: 40px;
+    background-color: black;
+    border-radius: 20px;
+    position: relative;
+  }
+  
+  .form p {
+    padding-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: .5px;
+    color: white;
+  }
+
+.contact{
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 1.6;
+    letter-spacing: 0.5px;
+    word-spacing: 1px;
+    font-weight: bold;
+}
+  
+  .container-1 {
+    padding-top: 50px;
+  }
+  
+  .main-input {
+    font-size: 16px;
+    padding: 10px 10px 10px 5px;
+    display: block;
+    width: 185px;
+    border: none;
+    border-bottom: 1px solid #6c6c6c;
+    background: transparent;
+    color: #ffffff;
+  }
+  
+  .main-input:focus {
+    outline: none;
+    border-bottom-color: red
+  }
+
+  .nombre {
+    color: #999999;
+    font-size: 18px;
+    font-weight: normal;
+    position: absolute;
+    pointer-events: none;
+    left: 5px;
+    top: 10px;
+    transition: 0.2s ease all;
+    -moz-transition: 0.2s ease all;
+    -webkit-transition: 0.2s ease all;
+  }
+  
+  .email {
+    color: #999999;
+    font-size: 18px;
+    font-weight: normal;
+    position: absolute;
+    pointer-events: none;
+    left: 5px;
+    top: 10px;
+    transition: 0.2s ease all;
+    -moz-transition: 0.2s ease all;
+    -webkit-transition: 0.2s ease all;
+  }
+  
+  .main-input:focus ~ .lebal-email,
+  .main-input:valid ~ .lebal-email {
+    top: -20px;
+    font-size: 14px;
+    color: red;
+  }
+  
+  .highlight-span {
+    position: absolute;
+    height: 60%;
+    width: 0px;
+    top: 25%;
+    left: 0;
+    pointer-events: none;
+    opacity: 0.5;
+  }
+  
+  .main-input:focus ~ .highlight-span {
+    -webkit-animation: input-focus 0.3s ease;
+    animation: input-focus 0.3s ease;
+  }
+  
+  @keyframes input-focus {
+    from {
+      background: red;
+    }
+  
+    to {
+      width: 185px;
+    }
+  }
+
+.mensaje {
+    margin-bottom: 20px; /* agrega 20px de espacio entre elementos */
+    padding: 10px 20px;
+}
+
+.btn {
+    background-color: #ffffff; /* color de fondo */
+    color: hsl(273, 42%, 77%); /* color del texto */
+    margin-bottom: 20px; /* agrega 20px de espacio entre elementos */
+    padding: 10px 20px; /* relleno */
+    border: none; /* borde */
+    border-radius: 5px; /* radio del borde */
+    cursor: pointer; /* cursor */
+    font-size: 16px; /* tamaño del texto */
+    font-weight: bold; /* peso del texto */
+  }
+  
+  .boton:hover {
+    background-color: #ffffff; /* color de fondo al pasar el cursor */
+    color: hsl(273, 42%, 77%); /* color del texto al pasar el cursor */
+  }
+  
+  .boton:active {
+    background-color: #ffffff; /* color de fondo al hacer clic */
+    color: hsl(273, 42%, 77%); /* color del texto al hacer clic */
+  }
