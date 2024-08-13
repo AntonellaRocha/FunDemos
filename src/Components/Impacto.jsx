@@ -15,7 +15,7 @@ function Impacto() {
         <p class="texto">
           Los participantes trabajaron en un desafío preparado por los
           referentes de Grupo MSA y se llevaron una experiencia profesional
-          real, pasando por todo el recorrido de desarrollo de un proyecto, trabajando en equipo con los diferentes roles de los equipos de IT MSA, 
+          real, pasando por todo el recorrido de desarrollo de un proyecto, trabajando en equipo con los diferentes roles de los equipos de IT MSA,
           e interactuando con todas las áreas de la compañía.
         </p>
         <p class="texto">
@@ -25,7 +25,6 @@ function Impacto() {
           conductual.
         </p>
       </div>
-
       <div id="carouselExampleIndicators" class="carousel slide">
         <div class="carousel-indicators">
           <button
@@ -52,21 +51,15 @@ function Impacto() {
         <div class="carousel-inner">
           <div class="carousel-item active">
             <img
-              src="img/PazJusticiaInstituciones.png"
+              src="/img/1710776089905.jpg"
               class="d-block w-100"
               alt="imagen1" />
           </div>
           <div class="carousel-item">
             <img
-              src="img/IndustriaInnovacion.png"
+              src="/img/1710776101275.jpg"
               class="d-block w-100"
               alt="imagen2" />
-          </div>
-          <div class="carousel-item">
-            <img
-              src="img/AccionPorElClima.png"
-              class="d-block w-100"
-              alt="imagen3" />
           </div>
         </div>
         <button
@@ -89,21 +82,22 @@ function Impacto() {
         </button>
       </div>
 
+
       <h2 class="subtitulo">Diagnóstico, Reporte de Sustentabilidad y Programa de
         compensación ambiental, de Grupo MSA
       </h2>
-      
+
       <p class="text">
         <strong>Estamos trabajando en el diagnóstico, reporte de sustentabilidad 2025 y programa de
-        compensación ambiental, de Grupo MSA, la empresa de tecnología Argentina que está 
-        generando un alto impacto de innovación en toda la región con sus proyectos electorales,
-        de entretenimiento tecnológico y de diseño.</strong>
+          compensación ambiental, de Grupo MSA, la empresa de tecnología Argentina que está
+          generando un alto impacto de innovación en toda la región con sus proyectos electorales,
+          de entretenimiento tecnológico y de diseño.</strong>
       </p>
 
       <p class="text">
         <strong>De este modo acompañamos a la empresa en su objetivo de continuar innovando con su
-        tecnología a las sociedades alrededor de la región enfocándose
-        en reducir el impacto ambiental de sus proyectos.</strong>
+          tecnología a las sociedades alrededor de la región enfocándose
+          en reducir el impacto ambiental de sus proyectos.</strong>
       </p>
 
     </section>

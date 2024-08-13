@@ -2,53 +2,50 @@ import React from "react";
 import "../../styles/Footer.css"
 
 function Footer() {
-  const [selectedItem, setSelectedItem] = React.useState("");
-
-  const HandleClick = (item) => {
-    setSelectedItem(item);
-  }
-
   return (
-    <nav class="navbar navbar-expand-lg bg-body-tertiary colornavbar">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="./index.html" aria-label="FunDemos" id="home">
-          <img class="navbar-brand-logo" src="./public/img/logo.jpg" alt="Logo" width="200" height="120"></img>
-        </a>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li
-              class={`nav-item ${selectedItem === "quienes-somos" ? "selected" : ""}`}
-              onClick={() => HandleClick("quienes-somos")}
-            >
-              <a class="nav-link" href="#quienes-somos">
-                ¿Quiénes somos?
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="logos">
+              <a
+                class="footer-brand"
+                href="./index.html"
+                aria-label="FunDemos"
+                id="home"
+              >
+                <img class="logo"
+                  src="/img/LOGO FUNDEMOS.png"
+                  alt="Logo"
+                ></img>
               </a>
-            </li>
-            <li
-              class={`nav-item ${selectedItem === "areas-accion" ? "selected" : ""}`}
-              onClick={() => HandleClick("areas-accion")}
-            >
-              <a class="nav-link" href="#areas-accion" id="areas-accion">
-                Áreas de Acción
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#autoridades" id="autoridades">
-                Autoridades
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#impacto" id="Impacto">
-                Impacto
-              </a>
-            </li>
-            {/* <a class="footer-brand" href="./index.html" aria-label="FunDemos" id="home">
-              <img class="footer-linkedin-logo" src="./public/img/linkedin-logo.png" alt="Logo" width="200" height="120"></img>
-            </a> */}
-          </ul>
+              <img src="logo2.png" alt="Logo 2" class="img-fluid" />
+            </div>
+          </div>
+          <div class="col-md-8">
+        <ul class="nav justify-content-end">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Quienes somos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Áreas de acción</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Autoridades</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Impacto</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.linkedin.com/" target="_blank">
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
         </div>
       </div>
-    </nav>
+    </footer>
   );
 }
 

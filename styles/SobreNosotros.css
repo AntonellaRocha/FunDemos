@@ -1,9 +1,6 @@
 /* Estilos generales del body*/
 body {
     font-family: Arial, sans-serif;
-    line-height: 1.6; /* Espacio entre lineas */
-    margin: 0;
-    padding: 0;
 }
 
 
@@ -13,8 +10,6 @@ body {
     margin-bottom: 20px;
     text-align: justify;
     text-indent: 30px;
-    line-height: 1.6;
-    letter-spacing: 0.5px;
     word-spacing: 1px;
     font-weight: bold;
 }
@@ -25,13 +20,19 @@ body {
     margin-bottom: 20px;
     text-indent: 20px;
     font-size: 25px;
+
 }
 
 .parrafo {
     margin-bottom: 20px;
     text-align:initial;
     text-indent: 30px;
-    line-height: 1.6;
     letter-spacing: 0.5px;
     font-size: 25px;
+}
+
+.img-fluid {
+    margin: auto;
+    padding-left: 100px;
+    justify-content: center;
 }

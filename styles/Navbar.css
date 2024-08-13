@@ -1,20 +1,17 @@
 .navbar {
     background-color: white !important;
-  }
+    display: flex;
+}
   
- /*  .nav-item .nav-link{
-    transition:  0.3s ease-in-out;
-  }
-  
-  .nav-item.selected .nav-link{
-    border: 2px solid red !important;
-    border-radius: 5px;
-    color: white;
-    background-color: red;
-  }  */
+.logo-position{
+  padding-left: 70px;
+}
 
-.navbar-brand-logo{
-    bottom: auto;
+.logo {
+  box-sizing: content-box;
+  margin-bottom: 0;
+  margin: 30px;
+  width: 240px;
 }
 
 .nav-link{
@@ -26,13 +23,37 @@
 }
 
   
-#contacto{
-    border: 2px solid red !important;
-    border-radius: 5px;
-    background-color: red;
+#contacto {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  background: red;
+  font-family: "Montserrat", sans-serif;
+  overflow: hidden;
+  border: none;
+}
+
+#quienes-somos {
+  margin-left: 2em;
+}
+
+#areas-accion {
+  margin-left: 2em;
+}
+
+#autoridades {
+  margin-left: 2em;
+}
+
+#impacto {
+  margin-left: 2em;
 }
   
-.contacto a{
+#contacto {
     color: white;
+    margin-left: 2em;
 }
+
   

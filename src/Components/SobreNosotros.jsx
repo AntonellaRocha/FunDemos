@@ -27,8 +27,11 @@ function SobreNosotros() {
         <p class="parrafo">
           Trabajamos alineados a los ODS adoptados por las Naciones Unidas,
           enfocándonos en las áreas donde podemos realizar mayores aportes en
-          relación a nuestro propósito
+          relación a nuestro propósito.
         </p>
+        <div>
+          <img src="/img/LOGO OBJETIVOS.png" class="img-fluid w-100" alt="objetivos"></img>
+        </div>
       </div>
     </section>
   );
