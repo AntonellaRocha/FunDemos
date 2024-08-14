@@ -23,11 +23,11 @@ function Navbar() {
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ms-auto">
-            <li class="nav-item mx-0 mx-lg-1"><a class="nav-link" href="#quienes-somos" id="quienes-somos">¿Quiénes somos?</a></li>
-            <li class="nav-item mx-0 mx-lg-1"><a class="nav-link" href="#areasAccion" id="areas-accion">Áreas de Acción </a></li>
-            <li class="nav-item mx-0 mx-lg-1"><a class="nav-link" href="#autoridades" id="autoridades">Autoridades</a></li>
-            <li class="nav-item mx-0 mx-lg-1"><a class="nav-link" href="#impacto" id="impacto">Impacto</a></li>
-            <li class="nav-item mx-0 mx-lg-1"><a class="nav-link" href="#contacto" id="contacto">Contacto</a></li>
+            <li class="nav-item mx-0 mx-lg-1"><a class="nav-link" href="#" id="quienes-somos">¿Quiénes somos?</a></li>
+            <li class="nav-item mx-0 mx-lg-1"><a class="nav-link" href="#a" id="areas-accion">Áreas de Acción </a></li>
+            <li class="nav-item mx-0 mx-lg-1"><a class="nav-link" href="#" id="autoridades">Autoridades</a></li>
+            <li class="nav-item mx-0 mx-lg-1"><a class="nav-link" href="#" id="impacto">Impacto</a></li>
+            <li class="nav-item mx-0 mx-lg-1"><a class="nav-link" href="#" id="contacto">Contacto</a></li>
           </ul>
         </div>
       </div>

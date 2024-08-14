@@ -19,7 +19,7 @@ function Footer() {
                   alt="Logo"
                 ></img>
               </a>
-              <img src="logo2.png" alt="Logo 2" class="img-fluid" />
+              {/* <img src="logo2.png" alt="Logo 2" class="img-fluid" /> */}
             </div>
           </div>
           <div class="col-md-8">

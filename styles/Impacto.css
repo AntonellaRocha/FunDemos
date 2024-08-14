@@ -42,15 +42,14 @@ body {
 
 /* estilos del p */
 .text{
-    text-align: justify;
+    text-align: justify center;
     text-indent: 20px;
-    text-align: center;
     font-size: 25px;
     
 }
 
 .texto {
     height:auto;
-    text-align: center;
+    text-align: justify center;
     letter-spacing: 0;
 }
