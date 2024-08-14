@@ -1,59 +1,5 @@
-.navbar {
-    background-color: white !important;
-    display: flex;
-}
-  
-.logo-position{
-  padding-left: 70px;
-}
-
 .logo {
-  box-sizing: content-box;
-  margin-bottom: 0;
   margin: 30px;
   width: 240px;
 }
-
-.nav-link{
-    width: 100%;
-    display: flex;
-    gap: 16px;
-    justify-content: space-around;
-    align-items: center;
-}
-
-  
-#contacto {
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 5px;
-  background: red;
-  font-family: "Montserrat", sans-serif;
-  overflow: hidden;
-  border: none;
-}
-
-#quienes-somos {
-  margin-left: 2em;
-}
-
-#areas-accion {
-  margin-left: 2em;
-}
-
-#autoridades {
-  margin-left: 2em;
-}
-
-#impacto {
-  margin-left: 2em;
-}
-  
-#contacto {
-    color: white;
-    margin-left: 2em;
-}
-
   

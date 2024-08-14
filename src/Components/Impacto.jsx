@@ -3,28 +3,29 @@ import "../../styles/Impacto.css";
 
 function Impacto() {
   return (
-    <section class="row" id="impacto">
-      <div class="col-md-12">
-        <h1 class="titulo">Impacto</h1>
-        <p class="texto">
-          10 días increíbles en los que 12 chicos y chicas de las fundaciones
-          “Media Pila”, “Empujar” e “Integrar”, pudieron poner en práctica lo
-          aprendido en sus cursos de programación y conocer cómo es el trabajo
-          en equipo en un proyecto de tecnología como ámbito profesional.
-        </p>
-        <p class="texto">
-          Los participantes trabajaron en un desafío preparado por los
-          referentes de Grupo MSA y se llevaron una experiencia profesional
-          real, pasando por todo el recorrido de desarrollo de un proyecto, trabajando en equipo con los diferentes roles de los equipos de IT MSA,
-          e interactuando con todas las áreas de la compañía.
-        </p>
-        <p class="texto">
-          Además de programar los chicos y chicas que participaron, tuvieron su
-          inducción, presentaron la demo del proyecto, realizaron una retro y se
-          llevaron en el feedback de cierre valiosas recomendaciones y su perfil
-          conductual.
-        </p>
-      </div>
+    <div class="container" id="impacto">
+        <h2 class="fw-bold h1 mb-4">Impacto</h2>
+        <div class="fs-3">
+          <p>
+            10 días increíbles en los que 12 chicos y chicas de las fundaciones
+            “Media Pila”, “Empujar” e “Integrar”, pudieron poner en práctica lo
+            aprendido en sus cursos de programación y conocer cómo es el trabajo
+            en equipo en un proyecto de tecnología como ámbito profesional.
+          </p>
+          <p>
+            Los participantes trabajaron en un desafío preparado por los
+            referentes de Grupo MSA y se llevaron una experiencia profesional
+            real, pasando por todo el recorrido de desarrollo de un proyecto, trabajando en equipo con los diferentes roles de los equipos de IT MSA,
+            e interactuando con todas las áreas de la compañía.
+          </p>
+          <p>
+            Además de programar los chicos y chicas que participaron, tuvieron su
+            inducción, presentaron la demo del proyecto, realizaron una retro y se
+            llevaron en el feedback de cierre valiosas recomendaciones y su perfil
+            conductual.
+          </p>
+        </div>
+
       <div id="carouselExampleIndicators" class="carousel slide">
         <div class="carousel-indicators">
           <button
@@ -100,7 +101,7 @@ function Impacto() {
           en reducir el impacto ambiental de sus proyectos.</strong>
       </p>
 
-    </section>
+    </div>
   );
 }
 

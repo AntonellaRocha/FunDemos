@@ -30,9 +30,3 @@ body {
     letter-spacing: 0.5px;
     font-size: 25px;
 }
-
-.img-fluid {
-    margin: auto;
-    padding-left: 100px;
-    justify-content: center;
-}

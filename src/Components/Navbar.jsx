@@ -3,7 +3,8 @@ import "../../styles/Navbar.css";
 
 function Navbar() {
   return (
-  <><nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
+  <>
+    <nav class="navbar navbar-expand-lg bg-white text-uppercase fixed-top" id="mainNav">
     <div class="logo-position">
             <a
           class="navbar-brand"
@@ -23,15 +24,16 @@ function Navbar() {
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ms-auto">
-            <li class="nav-item mx-0 mx-lg-1"><a class="nav-link" href="#" id="quienes-somos">¿Quiénes somos?</a></li>
-            <li class="nav-item mx-0 mx-lg-1"><a class="nav-link" href="#a" id="areas-accion">Áreas de Acción </a></li>
-            <li class="nav-item mx-0 mx-lg-1"><a class="nav-link" href="#" id="autoridades">Autoridades</a></li>
-            <li class="nav-item mx-0 mx-lg-1"><a class="nav-link" href="#" id="impacto">Impacto</a></li>
-            <li class="nav-item mx-0 mx-lg-1"><a class="nav-link" href="#" id="contacto">Contacto</a></li>
+            <li class="nav-item mx-0 mx-lg-1"><a class="nav-link" href="#quienes-somos">¿Quiénes somos?</a></li>
+            <li class="nav-item mx-0 mx-lg-1"><a class="nav-link" href="#areas-accion">Áreas de Acción </a></li>
+            <li class="nav-item mx-0 mx-lg-1"><a class="nav-link" href="#autoridades">Autoridades</a></li>
+            <li class="nav-item mx-0 mx-lg-1"><a class="nav-link" href="#impacto">Impacto</a></li>
+            <li class="nav-item mx-0 mx-lg-1"><a class="nav-link" href="#contacto">Contacto</a></li>
           </ul>
         </div>
       </div>
     </nav>
+    
     <div id="carouselExampleIndicators" class="carousel slide">
         <div class="carousel-indicators">
           <button
