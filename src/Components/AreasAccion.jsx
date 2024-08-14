@@ -40,7 +40,7 @@ function AreasAccion() {
           </div>
         </div>
       </div>
-    </section><section class="row" id="areas-accion">
+    </section><section class="action-section">
         <div class="col-md-12"></div>
 
         <div class="container my-4">
