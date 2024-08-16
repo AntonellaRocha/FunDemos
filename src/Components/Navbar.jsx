@@ -1,46 +1,46 @@
 import React from "react";
-import "../../styles/Navbar.css";
+import "../App.css";
 
 function Navbar() {
   return (
-  <>
-    <nav class="navbar navbar-expand-lg bg-white text-uppercase fixed-top" id="mainNav">
-    <div class="logo-position">
-            <a
-          class="navbar-brand"
-          href="./index.html"
-          aria-label="FunDemos"
-          id="home"
-        >
-          <img class="logo"
-            src="/img/LOGO FUNDEMOS.png"
-            alt="Logo"
-          ></img>
-        </a>
-        </div>  
-      <div class="container">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item mx-0 mx-lg-1"><a class="nav-link" href="#quienes-somos">¿Quiénes somos?</a></li>
-            <li class="nav-item mx-0 mx-lg-1"><a class="nav-link" href="#areas-accion">Áreas de Acción </a></li>
-            <li class="nav-item mx-0 mx-lg-1"><a class="nav-link" href="#autoridades">Autoridades</a></li>
-            <li class="nav-item mx-0 mx-lg-1"><a class="nav-link" href="#impacto">Impacto</a></li>
-            <li class="nav-item mx-0 mx-lg-1"><a class="nav-link" href="#contacto">Contacto</a></li>
-          </ul>
+    <>
+      <nav className="navbar navbar-expand-lg bg-white text-uppercase fixed-top" id="mainNav">
+        <div className="logo-position">
+          <a
+            className="navbar-brand"
+            href="./index.html"
+            aria-label="FunDemos"
+            id="home"
+          >
+            <img className="logo"
+              src="/img/LOGO FUNDEMOS.png"
+              alt="Logo"
+            ></img>
+          </a>
         </div>
-      </div>
-    </nav>
-    
-    <div id="carouselExampleIndicators" class="carousel slide">
-        <div class="carousel-indicators">
+        <div className="container">
+          <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span className="navbar-toggler-icon"></span>
+          </button>
+          <div className="collapse navbar-collapse" id="navbarResponsive">
+            <ul className="navbar-nav ms-auto">
+              <li className="nav-item mx-0 mx-lg-1"><a className="nav-link" href="#quienes-somos">¿Quiénes somos?</a></li>
+              <li className="nav-item mx-0 mx-lg-1"><a className="nav-link" href="#areas-accion">Áreas de Acción </a></li>
+              <li className="nav-item mx-0 mx-lg-1"><a className="nav-link" href="#autoridades">Autoridades</a></li>
+              <li className="nav-item mx-0 mx-lg-1"><a className="nav-link" href="#impacto">Impacto</a></li>
+              <li className="nav-item mx-0 mx-lg-1"><a className="nav-link" href="#contacto">Contacto</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div id="carouselExampleIndicators" className="carousel slide">
+        <div className="carousel-indicators">
           <button
             type="button"
             data-bs-target="#carouselExampleIndicators"
             data-bs-slide-to="0"
-            class="active"
+            className="active"
             aria-current="true"
             aria-label="Slide 1"
           ></button>
@@ -57,43 +57,43 @@ function Navbar() {
             aria-label="Slide 3"
           ></button>
         </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
+        <div className="carousel-inner">
+          <div className="carousel-item active">
             <img
               src="/img/1710775739372.jpg"
-              class="d-block w-100"
+              className="d-block w-100"
               alt="imagen1" />
           </div>
-          <div class="carousel-item">
+          <div className="carousel-item">
             <img
               src="/img/1710774255295.jpg"
-              class="d-block w-100"
+              className="d-block w-100"
               alt="imagen2" />
           </div>
-          <div class="carousel-item">
+          <div className="carousel-item">
             <img
               src="/img/1710775756498.jpg"
-              class="d-block w-100"
+              className="d-block w-100"
               alt="imagen3" />
           </div>
         </div>
         <button
-          class="carousel-control-prev"
+          className="carousel-control-prev"
           type="button"
           data-bs-target="#carouselExampleIndicators"
           data-bs-slide="prev"
         >
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
+          <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span className="visually-hidden">Previous</span>
         </button>
         <button
-          class="carousel-control-next"
+          className="carousel-control-next"
           type="button"
           data-bs-target="#carouselExampleIndicators"
           data-bs-slide="next"
         >
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
+          <span className="carousel-control-next-icon" aria-hidden="true"></span>
+          <span className="visually-hidden">Next</span>
         </button>
       </div></>
   );

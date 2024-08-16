@@ -1,32 +1,34 @@
 import React from "react";
-import "../../styles/Contacto.css";
+import "../App.css";
 
 function Contacto() {
   return (
-    <section class="row" id="contacto-form">
-      <div class="col-md-12">
-        <form class="form">
-          <p class="contact">Contacto</p>
-          <div class="group">
+    <section className="row" id="contacto-form">
+      <div className="col-md-12">
+        <form className="form">
+          <p className="contact">Contacto</p>
+          <div className="group">
             <input id="nombre" required class="main-input" type="text" />
-            <span class="highlight-span"></span>
-            <label for="nombre" class="nombre">Nombre</label>
+            <span className="highlight-span"></span>
+            <label for="nombre" className="nombre">Nombre</label>
           </div>
-          <div class="group">
+          <div className="group">
             <input id="email" required class="main-input" type="text" />
-            <span class="highlight-span"></span>
-            <label for="email" class="email">Email</label>
+            <span className="highlight-span"></span>
+            <label for="email" className="email">Email</label>
           </div>
-          <div class="form-group">
-            <label for="mensaje" class="mensaje">Mensaje</label>
+          <div className="form-group">
+            <label for="mensaje" className="mensaje">Mensaje</label>
             <textarea
-              class="form-control"
+              className="form-control"
               id="mensaje"
               rows="3"
               placeholder="Ingrese su mensaje"
             ></textarea>
           </div>
-          <button type="submit" class="btn">Enviar</button>
+          <div className="d-flex justify-content-center">
+            <button type="submit" className="btn">Enviar</button>
+          </div>
         </form>
       </div>
     </section>

@@ -1,51 +1,39 @@
 import React from "react";
-import "../../styles/Footer.css"
+import "../App.css"
 
 function Footer() {
   return (
-    <footer class="footer">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-4">
-            <div class="logos">
-              <a
-                class="footer-brand"
-                href="./index.html"
-                aria-label="FunDemos"
-                id="home"
-              >
-                <img class="logo"
-                  src="/img/LOGO FUNDEMOS.png"
-                  alt="Logo"
-                ></img>
-              </a>
-              {/* <img src="logo2.png" alt="Logo 2" class="img-fluid" /> */}
-            </div>
-          </div>
-          <div class="col-md-8">
-        <ul class="nav justify-content-end">
-          <li class="nav-item">
-            <a class="nav-link" href="#">Quienes somos</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Áreas de acción</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Autoridades</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Impacto</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="https://www.linkedin.com/" target="_blank">
-              <i class="fab fa-linkedin"></i>
+    <footer className="footer bg-white text-secondary">
+      <div className="container">
+        <div className="row align-items-center">
+          <div className="col-md-4 text-center">
+            <a
+              className="footer-brand"
+              href="./index.html"
+              aria-label="FunDemos"
+              id="home"
+            >
+              <img
+                className="logo"
+                src="/img/LOGO FUNDEMOS.png"
+                alt="Logo"
+              />
             </a>
-          </li>
-        </ul>
-      </div>
+          </div>
+
+          <div className="col-md-8">
+            <ul className="nav justify-content-end">
+              <li className="nav-item mx-0 mx-lg-1"><a className=" nav-link text-dark" href="#quienes-somos">¿Quiénes somos?</a></li>
+              <li className="nav-item mx-0 mx-lg-1"><a className="nav-link text-dark" href="#areas-accion">Áreas de Acción </a></li>
+              <li className="nav-item mx-0 mx-lg-1"><a className="nav-link text-dark" href="#autoridades">Autoridades</a></li>
+              <li className="nav-item mx-0 mx-lg-1"><a className="nav-link text-dark" href="#impacto">Impacto</a></li>
+            </ul>
+          </div>
         </div>
       </div>
     </footer>
+
+
   );
 }
 

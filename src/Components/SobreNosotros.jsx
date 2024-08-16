@@ -1,11 +1,11 @@
 import React from "react";
-import "../../styles/SobreNosotros.css";
+import "../App.css";
 
 function SobreNosotros() {
   return (
-    <div class="container py-5">
-      <h2 class="fw-bold h1 mb-4">¿Quiénes somos?</h2>
-      <div class="fs-3">
+    <div className="container py-5">
+      <h2 className="fw-bold h1 mb-4">¿Quiénes somos?</h2>
+      <div className="fs-3">
         <p>
           Nacimos en la provincia de Neuquén, Argentina, con el objeto de
           abocarnos a la capacitación y formación de la ciudadanía,
@@ -23,15 +23,15 @@ function SobreNosotros() {
           formación ciudadana, la eficiencia energética y la sustentabilidad de
           nuestro ambiente.
         </p>
-        <h2 class="fw-bold h1 pt-5">¿Qué nos mueve?</h2>
-        <p class="fs-2">
+        <h2 className="fw-bold h1 pt-5">¿Qué nos mueve?</h2>
+        <p className="fs-2">
           Trabajamos alineados a los ODS adoptados por las Naciones Unidas,
           enfocándonos en las áreas donde podemos realizar mayores aportes en
           relación a nuestro propósito.
         </p>
       </div>
       <div>
-        <img src="/img/LOGO OBJETIVOS.png" class="w-100 mt-4" alt="objetivos"></img>
+        <img src="/img/LOGO OBJETIVOS.png" className="w-100 mt-4" alt="objetivos"></img>
       </div>
     </div>
   );
