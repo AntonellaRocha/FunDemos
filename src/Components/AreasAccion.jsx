@@ -13,7 +13,7 @@ function AreasAccion() {
           </div>
         </div>
 
-        <div class="container py-5">
+        <div className="container py-5">
 
           {/* <!-- Formación Cívica --> */}
           <div className="row text-start text-white">
@@ -34,7 +34,7 @@ function AreasAccion() {
 
           <div className="row justify-content-center">
             <div className="col-12">
-              <hr className="border-white" />
+              <hr className="p-2 mb-2 border-bottom" style={{ backgroundColor: '#fff'}}/>
             </div>
           </div>
 

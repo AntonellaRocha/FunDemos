@@ -14,8 +14,8 @@ function App() {
        <AreasAccion/>
        <Autoridades/>
        <Impacto/>
-       {/* <Contacto/>
-       <Footer/> */}
+       <Contacto/>
+       <Footer/>
     </>
   )
 }

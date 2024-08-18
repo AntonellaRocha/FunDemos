@@ -1,40 +1,42 @@
 import React from "react";
 import "../App.css"
 
-function Footer() {
+const Footer = () => {
   return (
-    <footer className="footer bg-white text-secondary">
-      <div className="container">
-        <div className="row align-items-center">
-          <div className="col-md-4 text-center">
-            <a
-              className="footer-brand"
-              href="./index.html"
-              aria-label="FunDemos"
-              id="home"
-            >
-              <img
-                className="logo"
-                src="/img/LOGO FUNDEMOS.png"
-                alt="Logo"
-              />
-            </a>
-          </div>
+    <footer className="d-flex justify-content-around justify-content-evenly bg-white p-3">
+      <div className="d-flex justify-content-around align-items-baseline">
+        <img
+          src="/img/LOGO FUNDEMOS.png"
+          alt="FunDemos"
+          className="ms-5 mx-4"
+          style={{ width: '150px', height: 'auto' }} // Ajustar tamaño
+        />
+        <img
+          src="/img/GRUPO MSA.png"
+          alt="Grupo MSA"
+          className="ms-5 mx-4"
+          style={{ width: '150px', height: 'auto' }} // Ajustar tamaño
+        />
+        <div className="nav align-items-center p-3 h5">
+          <a href="#quienes-somos" className="nav-link mx-0 mx-lg-1 text-dark">¿Quiénes somos?</a>
+          <a href="#areas-de-accion" className="nav-link mx-0 mx-lg-1 text-dark me-3">Áreas de Acción</a>
+          <a href="#autoridades" className="nav-link mx-0 mx-lg-1 text-dark me-3">Autoridades</a>
+          <a href="#impacto" className="nav-link mx-0 mx-lg-1 text-dark me-3">Impacto</a>
+        </div>
 
-          <div className="col-md-8">
-            <ul className="nav justify-content-end">
-              <li className="nav-item mx-0 mx-lg-1"><a className="nav-link text-dark" href="#quienes-somos">¿Quiénes somos?</a></li>
-              <li className="nav-item mx-0 mx-lg-1"><a className="nav-link text-dark" href="#areas-accion">Áreas de Acción </a></li>
-              <li className="nav-item mx-0 mx-lg-1"><a className="nav-link text-dark" href="#autoridades">Autoridades</a></li>
-              <li className="nav-item mx-0 mx-lg-1"><a className="nav-link text-dark" href="#impacto">Impacto</a></li>
-            </ul>
-          </div>
+        <div className="justify-content-between">
+          <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer">
+            <img
+              src="/img/linkedin-logo.png"
+              alt="LinkedIn"
+              className="ms-5 mx-4 p-2"
+              style={{ width: '70px', height: 'auto' }} // Ajustar el tamaño
+            />
+          </a>
         </div>
       </div>
     </footer>
-
-
   );
-}
+};
 
 export default Footer;
