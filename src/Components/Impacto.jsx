@@ -7,19 +7,19 @@ function Impacto() {
     <><section className="quienes-somos">
       <div className="container py-5">
         <div className="d-inline-flex mb-5">
-          <div className="bg-white mx-auto px-5 py-3 rounded-3">
-            <span className="fw-bold h1 mb-4 text-black">Impacto</span>
+          <div className="bg-white mb-5 p-5 py-3 rounded-3">
+            <span className="fw-bold h1 m-5 text-black">Impacto</span>
           </div>
         </div>
 
-        <div className="container py-5">
-          <div className="row text-end text-white">
-            <div className="col-12">
-              <h3 className="fs-1 fw-bold">ChallengeFunDemos / MSA</h3>
-            </div>
+        <div className="row text-end text-white">
+          <div className="mb-5">
+            <span className="fs-1 fw-bold">ChallengeFunDemos / MSA</span>
           </div>
         </div>
-        <div className="fs-3 text-white">
+
+
+        <div className="fs-3 text-white mb-5">
           <p>
             10 días increíbles en los que 12 chicos y chicas de las fundaciones
             “Media Pila”, “Empujar” e “Integrar”, pudieron poner en práctica lo
@@ -40,66 +40,40 @@ function Impacto() {
           </p>
         </div>
 
-        <div id="carouselExampleIndicators" className="carousel slide">
-          <div className="carousel-indicators">
-            <button
-              type="button"
-              data-bs-target="#carouselExampleIndicators"
-              data-bs-slide-to="0"
-              className="active"
-              aria-current="true"
-              aria-label="Slide 1"
-            ></button>
-            <button
-              type="button"
-              data-bs-target="#carouselExampleIndicators"
-              data-bs-slide-to="1"
-              aria-label="Slide 2"
-            ></button>
-            <button
-              type="button"
-              data-bs-target="#carouselExampleIndicators"
-              data-bs-slide-to="2"
-              aria-label="Slide 3"
-            ></button>
+        <div className="d-flex">
+          <div className="bg-white mx-auto px-5 py-3 rounded p-2">
+            <span className="fw-bold h2 text-black p-2">Galería de Fotos</span>
           </div>
+        </div>
+
+
+        <div id="carouselExampleFade" className="carousel slide carousel-fade">
           <div className="carousel-inner">
             <div className="carousel-item active">
-              <img
-                src="/img/1710776089905.jpg"
-                className="d-block w-100"
-                alt="imagen1" />
+              <img src="/img/1710776089905.jpg" class="d-block w-100" alt="img1" />
             </div>
             <div className="carousel-item">
-              <img
-                src="/img/1710776101275.jpg"
-                className="d-block w-100"
-                alt="imagen2" />
+              <img src="/img/1710776101275.jpg" class="d-block w-100" alt="img2" />
+            </div>
+            <div className="carousel-item">
+              <img src="img/IMG_20240315_174910839.jpg" class="d-block w-100" alt="img3" />
             </div>
           </div>
-          <button
-            className="carousel-control-prev"
-            type="button"
-            data-bs-target="#carouselExampleIndicators"
-            data-bs-slide="prev"
-          >
+          <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
             <span className="carousel-control-prev-icon" aria-hidden="true"></span>
             <span className="visually-hidden">Previous</span>
           </button>
-          <button
-            className="carousel-control-next"
-            type="button"
-            data-bs-target="#carouselExampleIndicators"
-            data-bs-slide="next"
-          >
+          <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
             <span className="carousel-control-next-icon" aria-hidden="true"></span>
             <span className="visually-hidden">Next</span>
           </button>
         </div>
       </div>
+
+
     </section><section className="diagnostico">
         <div className="container">
-          <div className="fw-bold h1 mb-4 mx-auto pt-5">Diagnóstico, Reporte de Sustentabilidad y Programa de compensación ambiental, de Grupo MSA </div>
+          <div className="fw-bold h1 mb-4 mx-auto pt-5 mb-5">Diagnóstico, Reporte de Sustentabilidad y Programa de compensación ambiental, de Grupo MSA </div>
           <div className="fs-2 text-start fw-bold">
             <p>
               Estamos trabajando en el diagnóstico, reporte de sustentabilidad 2025 y programa de compensación ambiental, de Grupo MSA, la empresa de tecnología Argentina que está generando un alto impacto de innovación en toda la región con sus proyectos electorales, de entretenimiento tecnológico y de diseño.

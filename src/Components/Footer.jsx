@@ -22,9 +22,6 @@ const Footer = () => {
           <a href="#areas-de-accion" className="nav-link mx-0 mx-lg-1 text-dark me-3">Áreas de Acción</a>
           <a href="#autoridades" className="nav-link mx-0 mx-lg-1 text-dark me-3">Autoridades</a>
           <a href="#impacto" className="nav-link mx-0 mx-lg-1 text-dark me-3">Impacto</a>
-        </div>
-
-        <div className="justify-content-between">
           <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer">
             <img
               src="/img/linkedin-logo.png"
@@ -36,6 +33,7 @@ const Footer = () => {
         </div>
       </div>
     </footer>
+
   );
 };
 

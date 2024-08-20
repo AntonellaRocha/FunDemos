@@ -2,7 +2,7 @@
 .logo {
     margin: 30px;
     width: 240px;
-    padding-left: 20px;
+    padding-left: 30px;
   }
 
 
@@ -11,4 +11,5 @@
 .action-section, .quienes-somos{
     background-color: #e60000; /* Rojo de fondo */
   }
-
+  
+  

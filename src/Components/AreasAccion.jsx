@@ -4,7 +4,7 @@ import "../App.css";
 function AreasAccion() {
   return (
     <>
-      <section className="py-5 action-section text-white">
+      <section className="py-5 action-section">
 
         <div className="d-flex mb-5">
 
@@ -16,56 +16,42 @@ function AreasAccion() {
         <div className="container py-5">
 
           {/* <!-- Formación Cívica --> */}
-          <div className="row text-start text-white">
-            <div className="col-12">
-              <h3 className="fs-1 fw-bold">Formación Cívica</h3>
+          <div className="row aling-items-center text-white">
+            <h3 className="fs-1 fw-bold col-4">Formación Cívica</h3>
+            <div className="text-dark p-3 shadow-sm card col-8">
+              <h5 className="fw-bold">Desarrollo cívico</h5>
+              <p className="fs-5 fw-lighter">¿Qué hacemos respecto de la complejidad del impacto tecnológico en el ecosistema electoral?</p>
             </div>
           </div>
 
-          {/*   <!-- Desarrollo Cívico --> */}
-          <div className="row justify-content-end mb-4">
-            <div className="col-md-8 col-lg-6 d-flex">
-              <div className="bg-white text-dark p-3 rounded shadow-sm">
-                <h5 className="fw-bold">Desarrollo cívico</h5>
-                <p>¿Qué hacemos respecto de la complejidad del impacto tecnológico en el ecosistema electoral?</p>
-              </div>
-            </div>
-          </div>
 
-          <div className="row justify-content-center">
+          <div className="row justify-content-center my-4">
             <div className="col-12">
-              <hr className="p-2 mb-2 border-bottom" style={{ backgroundColor: '#fff'}}/>
+              <div class="pb-2 mb-4 border-bottom border-white"></div>
             </div>
           </div>
 
 
           {/*  <!-- Desarrollo Sustentable --> */}
-          <div className="row text-start text-white">
-            <div className="col-12">
-              <h3 className="fs-1 fw-bold">Desarrollo Sustentable</h3>
+          <div className="row aling-items-center text-white">
+            <h3 className="fs-1 fw-bold col-4">Desarrollo Sustentable</h3>
+            <div className="text-dark p-3 shadow-sm card col-8 mb-3">
+              <h5 className="fw-bold">Empleabilidad</h5>
+              <p className="fs-5 fw-lighter">¿Qué hacemos respecto de la complejidad del impacto tecnológico en el mundo del empleo?</p>
             </div>
-          </div>
+            <div className="col-4" />
 
-          {/* <!-- Empleabilidad --> */}
-          <div className="row justify-content-end mb-4">
-            <div className="col-md-8 col-lg-6 mb-3">
-              <div className="bg-white text-dark p-3 rounded shadow-sm">
-                <h5 className="fw-bold">Empleabilidad</h5>
-                <p>¿Qué hacemos respecto de la complejidad del impacto tecnológico en el mundo del empleo?</p>
-              </div>
-            </div>
-          </div>
 
-          {/* <!-- Ambiente --> */}
-          <div className="row justify-content-end mb-4">
-            <div className="col-md-8 col-lg-6 mb-3">
-              <div className="bg-white text-dark p-3 rounded shadow-sm">
-                <h5 className="fw-bold">Ambiente</h5>
-                <p>¿Qué hacemos respecto de la complejidad del impacto tecnológico en el planeta tierra?</p>
-              </div>
+            <div className="text-dark p-3 shadow-sm card col-8">
+              <h5 className="fw-bold">Ambiente</h5>
+              <p className="fs-5 fw-lighter">¿Qué hacemos respecto de la complejidad del impacto tecnológico en el planeta tierra?</p>
             </div>
           </div>
         </div>
+
+
+
+
 
         <div className="col-md-12"></div>
         <div className="container my-4">
@@ -78,12 +64,12 @@ function AreasAccion() {
                     className="card-img-top"
                     alt="..." />
 
-                  <h3 className="card-title">Formación civica</h3>
-                  <h4>Tecnología y elecciones</h4>
-                  <ul className="card-text">
-                    <li> Capacitación en Tecnología y Elecciones al ecosistema electoral</li>
-                    <li> Difusión y observatorio electoral</li>
-                    <li>Acciones con la ciudadanía</li>
+                  <h3 className="text-center pt-4">Formación civica</h3>
+                  <h4 className="text-center">Tecnología y elecciones</h4>
+                  <ul className="d-flex flex-column mb-3 text-muted">
+                    <li className="p-2"> Capacitación en Tecnología y Elecciones al ecosistema electoral</li>
+                    <li className="p-2"> Difusión y observatorio electoral</li>
+                    <li className="p-2">Acciones con la ciudadanía</li>
                   </ul>
                 </div>
               </div>
@@ -95,16 +81,13 @@ function AreasAccion() {
                     src="/img/IndustriaInnovacion.png"
                     className="card-img-top"
                     alt="..." />
-                  <h3 className="card-title">Empleabilidad</h3>
-                  <h4>Tecnología y empleo</h4>
-                  <ul className="card-text">
-                    <li> Igualdad de Oportunidades: acceso a
-                      población vulnerable al mundo de la
-                      tecnología.
-                    </li>
-                    <li> Programas de Empleabilidad en TEC</li>
-                    <li>Apoyo a capacitación en TEC</li>
-                    <li>Inserción laboral en el mundo de la TEC</li>
+                  <h3 className="text-center pt-4">Empleabilidad</h3>
+                  <h4 className="text-center">Tecnología y empleo</h4>
+                  <ul className="d-flex flex-column mb-3 text-muted">
+                    <li className="p-2"> Igualdad de Oportunidades: acceso a población vulnerable al mundo de la tecnología.</li>
+                    <li className="p-2"> Programas de Empleabilidad en TEC</li>
+                    <li className="p-2">Apoyo a capacitación en TEC</li>
+                    <li className="p-2">Inserción laboral en el mundo de la TEC</li>
                   </ul>
                 </div>
               </div>
@@ -116,30 +99,27 @@ function AreasAccion() {
                     src="/img/AccionPorElClima.png"
                     className="card-img-top"
                     alt="..." />
-                  <h3 className="card-title">Ambiente</h3>
-                  <h4>Tecnología y planeta tierra</h4>
-                  <ul className="card-text">
-                    <li>  Medición y Compensación del impacto
-                      ambiental de proyectos tecnológicos, y
-                      reportes de sustentabilidad
-                    </li>
-                    <li>  Programas de reciclaje de tecnología y
-                      campañas de concienciación
-                    </li>
-                    <li>Soluciones tecnológicas para reducir la huella de carbono</li>
+                  <h3 className="text-center pt-4">Ambiente</h3>
+                  <h4 className="text-center">Tecnología y planeta tierra</h4>
+                  <ul className="d-block p-2 ms-4 text-muted">
+                    <li className="p-2">Medición y Compensación del impacto ambiental de proyectos tecnológicos, y reportes de sustentabilidad </li>
+                    <li className="p-2">Programas de reciclaje de tecnología y campañas de concienciación</li>
+                    <li className="p-2">Soluciones tecnológicas para reducir la huella de carbono</li>
                   </ul>
                 </div>
               </div>
             </div>
           </div>
         </div>
-
       </section>
-
-
-
-
     </>
+
+
+
+
+
+
+
   );
 }
 

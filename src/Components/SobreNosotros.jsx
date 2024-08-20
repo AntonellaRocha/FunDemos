@@ -14,7 +14,7 @@ function SobreNosotros() {
             defensa de derechos y agendas ambientales.
           </p>
           <p>
-            En 2023 hermanamos caminos con <strong>Grupo MSA</strong> para buscar
+            En 2023 hermanamos caminos con <strong className="text-black">Grupo MSA</strong> para buscar
             generar un impacto significativo en materia de empleabilidad, ambiente
             y desarrollo cívico, operando a través de la industria tecnológica.
           </p>

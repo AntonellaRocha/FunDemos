@@ -27,10 +27,10 @@ function Autoridades() {
         </div>
 
         {/* acordeon */}
-        <div className="accordion" id="accordionEjemplo">
+        <div className="accordion pt-4" id="accordionEjemplo">
           <div className="accordion-item">
             <h2 className="accordion-header">
-              <button class="accordion-button d-flex align-items-center" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              <button className="accordion-button d-flex align-items-center" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                 {/* <img src="/img/JUAN PABLO PREZZOLI.jpg" className="img-fluid border shadow" alt="Foto 1" /> */}
                 Juan Pablo Prezzoli <span className="ms-auto text-muted">Presidente</span>
               </button>
@@ -40,6 +40,60 @@ function Autoridades() {
             <div className="accordion-body">
               Papá, docente universitario, consultor y abogado con especialidad en Derecho Público. He transitado diversos trayectos en el sector público y privado, siempre entusiasmado e involucrado en iniciativas vinculadas a la ampliación de derechos, participación ciudadana, debate de ideas y expresiones plurales.
             </div>
+          </div>
+        </div>
+
+        <div className="accordion pt-4" id="accordionEjemplo">
+          <div className="accordion-item">
+            <h2 className="accordion-header">
+            {/* <img src="/img/TOMAS LANZILLOTTA.jpg" class="img-thumbnail" alt="..."/> */}
+              <button className="accordion-button d-flex align-items-center" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                Tomás Lanzillota <span className="ms-auto text-muted">Secretario</span>
+              </button>
+            </h2>
+          </div>
+          <div id="collapseOne" className="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+            <div className="accordion-body">
+              Apasionado profesional con orígenes en el mundo del marketing, y marcada orientación a la gestión de personas, la comunicación, la construcción de estrategia organizacional y el desarrollo de negocios. Desde diferentes roles, llevo más de 20 años trabajando en múltiples desafíos de comunicación, desarrollo organizacional, posicionamiento y transformación cultural con diferentes empresas, equipos y profesionales. He liderado procesos de start up y profesionalización de áreas de Marketing, RRHH y Fundaciones, en diferentes organizaciones.
+            </div>
+          </div>
+        </div>
+
+        <div className="accordion pt-4" id="accordionEjemplo">
+          <div className="accordion-item">
+            <h2 className="accordion-header">
+              <button className="accordion-button d-flex align-items-center" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                {/* <img src="/img/JUAN PABLO PREZZOLI.jpg" className="img-fluid border shadow" alt="Foto 1" /> */}
+                Mariela García <span className="ms-auto text-muted">Tesorera</span>
+              </button>
+            </h2>
+          </div>
+          <div id="collapseOne" className="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+            <div className="accordion-body">
+              Soy Licenciada en Economía con 10 años de experiencia en la optimización de metodologías de trabajo y la administración eficiente de recursos. He desarrollado mi carrera en sectores transversales de la compañía, como compras, planificación y recursos humanos. Actualmente, me enfoco en dejar mi huella en el control de gestión regional. Confiable, responsable y comprometida, siempre busco dar lo mejor de mí en todo lo que hago. Disfruto de compartir buenos momentos con amigos y familiares, especialmente alrededor de un mate y una buena charla. Valoro la honestidad y la comunicación abierta, y me encanta conectar con las personas a través de conversaciones significativas.
+            </div>
+          </div>
+        </div>
+
+        {/* titulo del acordeon */}
+        <div className="row text-start">
+          <div className="col-12">
+            <h3 className="fs-1 fw-bold">Director Ejecutivo de Formación Cívica</h3>
+          </div>
+        </div>
+
+        <div className="row justify-content-center align-items-center">
+          <div className="col-12">
+            <hr className="border-black" />
+          </div>
+        </div>
+        <div className="accordion pt-4" id="accordionEjemplo">
+          <div className="accordion-item">
+            <h2 className="accordion-header">
+              <button className="accordion-button d-flex align-items-center" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                <span className="text-center">Nicolas Deane</span>
+              </button>
+            </h2>
           </div>
         </div>
 
