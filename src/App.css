@@ -13,3 +13,17 @@
   }
   
   
+  .accordion-custom .accordion-button {
+    background-color: #ffeeee; 
+    color: black; 
+  }
+  
+  .accordion-custom .accordion-body {
+    background-color: #ffeeee; 
+    color: black;
+  }
+
+  .no-outline:focus {
+    outline: none;
+    box-shadow: none; /* Elimina también cualquier sombra que podría estar aplicada */
+  }
