@@ -16,13 +16,17 @@ function AreasAccion() {
         <div className="container py-5">
 
           {/* <!-- Formación Cívica --> */}
-          <div className="row aling-items-center text-white">
+          <div className="row align-items-center text-white">
             <h3 className="fs-1 fw-bold col-4">Formación Cívica</h3>
-            <div className="text-dark p-3 shadow-sm card col-8">
-              <h5 className="fw-bold">Desarrollo cívico</h5>
-              <p className="fs-5 fw-lighter">¿Qué hacemos respecto de la complejidad del impacto tecnológico en el ecosistema electoral?</p>
+
+            <div className="col-8">
+              <div className="text-dark p-3 shadow-sm card mb-3">
+                <h5 className="fw-bold">Desarrollo cívico</h5>
+                <p className="fs-5 fw-lighter">¿Qué hacemos respecto de la complejidad del impacto tecnológico en el ecosistema electoral?</p>
+              </div>
             </div>
           </div>
+
 
 
           <div className="row justify-content-center my-4">
@@ -33,23 +37,22 @@ function AreasAccion() {
 
 
           {/*  <!-- Desarrollo Sustentable --> */}
-          <div className="row aling-items-center text-white">
+          <div className="row align-items-center text-white">
             <h3 className="fs-1 fw-bold col-4">Desarrollo Sustentable</h3>
-            <div className="text-dark p-3 shadow-sm card col-8 mb-3">
-              <h5 className="fw-bold">Empleabilidad</h5>
-              <p className="fs-5 fw-lighter">¿Qué hacemos respecto de la complejidad del impacto tecnológico en el mundo del empleo?</p>
-            </div>
-            <div className="col-4" />
 
 
-            <div className="text-dark p-3 shadow-sm card col-8">
-              <h5 className="fw-bold">Ambiente</h5>
-              <p className="fs-5 fw-lighter">¿Qué hacemos respecto de la complejidad del impacto tecnológico en el planeta tierra?</p>
+            <div className="col-8">
+              <div className="text-dark p-3 shadow-sm card mb-3">
+                <h5 className="fw-bold">Empleabilidad</h5>
+                <p className="fs-5 fw-lighter">¿Qué hacemos respecto de la complejidad del impacto tecnológico en el mundo del empleo?</p>
+              </div>
+              <div className="text-dark p-3 shadow-sm card">
+                <h5 className="fw-bold">Ambiente</h5>
+                <p className="fs-5 fw-lighter">¿Qué hacemos respecto de la complejidad del impacto tecnológico en el planeta tierra?</p>
+              </div>
             </div>
           </div>
         </div>
-
-
 
 
 

@@ -1,35 +1,57 @@
 /* Estilo del logo */
 .logo {
-    margin: 30px;
-    width: 240px;
-    padding-left: 30px;
-  }
+  margin: 30px;
+  width: 240px;
+  padding-left: 30px;
+}
 
 
 
 /* Estilos personalizados */
-.action-section, .quienes-somos, .btn-contact{
-    background-color: #e60000; /* Rojo de fondo */
-  }
-  
-  /* Estilos acordeon */
-  .accordion-custom .accordion-button {
-    background-color: #ffeeee; 
-    color: black; 
-  }
-  
-  .accordion-custom .accordion-body {
-    background-color: #ffeeee; 
-    color: black;
-  }
+.action-section,
+.quienes-somos,
+.btn-contact {
+  background-color: #e60000; /* Rojo de fondo */
 
-  .no-outline:focus {
-    outline: none;
-    box-shadow: none; /* Elimina cualquier aplicada */
-  }
+}
+
+/* Estilos acordeon */
+.accordion-custom .accordion-button {
+  background-color: #ffeeee;
+  color: black;
+}
+
+.acordeon-height img,
+.acordeon-height .user-info {
+  height: 200px;
+}
+
+.user-info {
+  background-color: #f7e4e8;
+  overflow-y: hidden;
+}
+
+.user-info:hover {
+  height: fit-content;
+}
+
+.user-info:hover p {
+  display: block !important;
+}
 
 
-  /* Estilos generales del formulario */
+.accordion-custom .accordion-body {
+  background-color: #ffeeee;
+  color: black;
+}
+
+.no-outline:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+
+/* Estilos generales del formulario */
 .form-container {
   background-color: #000;
   border-radius: 15px;
@@ -56,4 +78,4 @@
   color: #dfaefc;
   border-radius: 10px;
   padding: 10px 30px;
-} 
+}
