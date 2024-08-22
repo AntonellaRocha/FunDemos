@@ -6,7 +6,7 @@ function SobreNosotros() {
     <><section className="quienes-somos">
       <div className="container py-5">
         <div className="fw-bold h1 mb-4 text-white">¿Quiénes somos?</div>
-        <div className="fs-3 text-white">
+        <div className="fs-3 text-white lh-s">
           <p>
             Nacimos en la provincia de Neuquén, Argentina, con el objeto de
             abocarnos a la capacitación y formación de la ciudadanía,
@@ -29,7 +29,7 @@ function SobreNosotros() {
     </section><section className="que-nos-mueve">
         <div className="container">
           <div className="fw-bold h1 pt-5">¿Qué nos mueve?</div>
-          <p className="fs-2">
+          <p className="fs-2 lh-s">
             Trabajamos alineados a los ODS adoptados por las Naciones Unidas,
             enfocándonos en las áreas donde podemos realizar mayores aportes en
             relación a nuestro propósito.

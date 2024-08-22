@@ -19,7 +19,7 @@ function Impacto() {
         </div>
 
 
-        <div className="fs-3 text-white mb-5">
+        <div className="fs-3 text-white mb-5 lh-s">
           <p>
             10 días increíbles en los que 12 chicos y chicas de las fundaciones
             “Media Pila”, “Empujar” e “Integrar”, pudieron poner en práctica lo
@@ -74,7 +74,7 @@ function Impacto() {
     </section><section className="diagnostico">
         <div className="container">
           <div className="fw-bold h1 mb-4 mx-auto pt-5 mb-5">Diagnóstico, Reporte de Sustentabilidad y Programa de compensación ambiental, de Grupo MSA </div>
-          <div className="fs-2 text-start fw-bold">
+          <div className="fs-2 text-start fw-bold lh-s">
             <p>
               Estamos trabajando en el diagnóstico, reporte de sustentabilidad 2025 y programa de compensación ambiental, de Grupo MSA, la empresa de tecnología Argentina que está generando un alto impacto de innovación en toda la región con sus proyectos electorales, de entretenimiento tecnológico y de diseño.
             </p>

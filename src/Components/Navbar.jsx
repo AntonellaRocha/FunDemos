@@ -28,7 +28,7 @@ function Navbar() {
               <li className="nav-item mx-0 mx-lg-1"><a className="nav-link text-dark fw-medium" href="#areas-accion">Áreas de Acción </a></li>
               <li className="nav-item mx-0 mx-lg-1"><a className="nav-link text-dark fw-medium" href="#autoridades">Autoridades</a></li>
               <li className="nav-item mx-0 mx-lg-1"><a className="nav-link text-dark fw-medium" href="#impacto">Impacto</a></li>
-              <li className="nav-item bg-danger rounded-4 mx-0 mx-lg-1 btn-lg"><a className="nav-link text-white fw-medium" href="#contacto">Contacto</a></li>
+              <li className="nav-item btn-contact rounded-4 mx-0 mx-lg-1 btn-lg"><a className="nav-link text-white fw-medium" href="#contacto">Contacto</a></li>
             </ul>
           </div>
         </div>
