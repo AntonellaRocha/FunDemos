@@ -12,7 +12,7 @@ function Navbar() {
             aria-label="FunDemos"
             id="home"
           >
-            <img className="logo"
+            <img className="logo mx-5 ms-5 px-3"
               src="/img/LOGO FUNDEMOS.png"
               alt="Logo"
             ></img>
@@ -24,11 +24,11 @@ function Navbar() {
           </button>
           <div className="collapse navbar-collapse" id="navbarResponsive">
             <ul className="navbar-nav ms-auto">
-              <li className="nav-item mx-0 mx-lg-1"><a className="nav-link text-dark fw-medium" href="#quienes-somos">¿Quiénes somos?</a></li>
-              <li className="nav-item mx-0 mx-lg-1"><a className="nav-link text-dark fw-medium" href="#areas-accion">Áreas de Acción </a></li>
-              <li className="nav-item mx-0 mx-lg-1"><a className="nav-link text-dark fw-medium" href="#autoridades">Autoridades</a></li>
-              <li className="nav-item mx-0 mx-lg-1"><a className="nav-link text-dark fw-medium" href="#impacto">Impacto</a></li>
-              <li className="nav-item btn-contact rounded-4 mx-0 mx-lg-1 btn-lg"><a className="nav-link text-white fw-medium" href="#contacto">Contacto</a></li>
+              <li className="nav-item mx-0 mx-lg-3"><a className="nav-link text-dark fw-medium" href="#quienes-somos">¿Quiénes somos?</a></li>
+              <li className="nav-item mx-0 mx-lg-3"><a className="nav-link text-dark fw-medium" href="#areas-accion">Áreas de Acción </a></li>
+              <li className="nav-item mx-0 mx-lg-3"><a className="nav-link text-dark fw-medium" href="#autoridades">Autoridades</a></li>
+              <li className="nav-item mx-0 mx-lg-3"><a className="nav-link text-dark fw-medium" href="#impacto">Impacto</a></li>
+              <li className="nav-item btn-contact me-md-2 rounded-3 mx-0 mx-lg-4 px-4"><a className="nav-link text-white fw-medium" href="#contacto">Contacto</a></li>
             </ul>
           </div>
         </div>

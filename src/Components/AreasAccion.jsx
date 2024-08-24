@@ -4,7 +4,7 @@ import "../App.css";
 function AreasAccion() {
   return (
     <>
-      <section className="py-5 action-section">
+      <section className="py-5 action-section" id="areas-accion">
 
         <div className="d-flex mb-5">
 

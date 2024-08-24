@@ -3,7 +3,7 @@ import "../App.css";
 
 function SobreNosotros() {
   return (
-    <><section className="quienes-somos">
+    <><section className="quienes-somos" id="quienes-somos">
       <div className="container py-5">
         <div className="fw-bold h1 mb-4 text-white">¿Quiénes somos?</div>
         <div className="fs-3 text-white lh-s">
