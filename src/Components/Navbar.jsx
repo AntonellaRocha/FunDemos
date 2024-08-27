@@ -5,20 +5,15 @@ function Navbar() {
   return (
     <>
       <nav className="navbar navbar-expand-lg bg-white text-uppercase fixed-top" id="mainNav">
-        <div className="logo-position">
-          <a
-            className="navbar-brand"
-            href="./index.html"
-            aria-label="FunDemos"
-            id="home"
-          >
-            <img className="logo mx-5 ms-5 px-3"
+        <div className="container-fluid logo-position">
+          <a className="navbar-brand" href="./index.html" aria-label="FunDemos" id="home">
+            <img className="logo mx-5 ms-5 px-3 img-fluid"
               src="/img/LOGO FUNDEMOS.png"
               alt="Logo"
             ></img>
           </a>
         </div>
-        <div className="container">
+        <div className="container-fluid">
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
           </button>
