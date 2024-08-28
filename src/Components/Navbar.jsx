@@ -4,7 +4,7 @@ import "../App.css";
 function Navbar() {
   return (
     <>
-      <nav className="navbar navbar-expand-lg bg-white text-uppercase fixed-top" id="mainNav">
+      <nav className="navbar navbar-expand-lg text-uppercase position-relative" id="mainNav">
         <div className="container-fluid logo-position">
           <a className="navbar-brand" href="./index.html" aria-label="FunDemos" id="home">
             <img className="logo mx-5 ms-5 px-3 img-fluid"
@@ -28,6 +28,7 @@ function Navbar() {
           </div>
         </div>
       </nav>
+
 
       <div id="carouselExampleIndicators" className="carousel slide">
         <div className="carousel-indicators">
@@ -90,7 +91,9 @@ function Navbar() {
           <span className="carousel-control-next-icon" aria-hidden="true"></span>
           <span className="visually-hidden">Next</span>
         </button>
+
       </div></>
+
   );
 }
 
