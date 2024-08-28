@@ -3,8 +3,8 @@ import "../App.css";
 
 function SobreNosotros() {
   return (
-    <><section className="quienes-somos" id="quienes-somos">
-      <div className="container py-5">
+    <><section className="quienes-somos">
+      <div className="container text-center text-lg-start py-5">
         <div className="fw-bold h1 mb-4 text-white">¿Quiénes somos?</div>
         <div className="fs-3 text-white lh-s">
           <p>
@@ -26,16 +26,16 @@ function SobreNosotros() {
           </p>
         </div>
       </div>
-    </section><section className="que-nos-mueve">
-        <div className="container">
+    </section><section className="que-nos-mueve pb-5">
+        <div className="container text-center text-lg-start">
           <div className="fw-bold h1 pt-5">¿Qué nos mueve?</div>
           <p className="fs-2 lh-s">
             Trabajamos alineados a los ODS adoptados por las Naciones Unidas,
             enfocándonos en las áreas donde podemos realizar mayores aportes en
             relación a nuestro propósito.
           </p>
-          <div>
-            <img src="/img/LOGO OBJETIVOS.png" className="w-100 mt-4" alt="objetivos"></img>
+          <div className="text-center">
+            <img src="/img/LOGO OBJETIVOS.png" className="w-75 mt-4" alt="objetivos"></img>
           </div>
         </div>
       </section></>

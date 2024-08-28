@@ -3,17 +3,18 @@ import "../App.css";
 
 function AreasAccion() {
   return (
-    <>
-      <section className="py-5 action-section" id="areas-accion">
+    <div className="action-section">
+      <section className="container py-5" id="areas-accion">
 
         <div className="d-flex mb-5">
 
-          <div className="bg-white mx-auto px-5 py-3 rounded-3">
+          <div className="bg-white mx-lg-auto px-5 py-3 rounded-3">
             <span className="fs-1 fw-bold text-black">Areas de Acción</span>
           </div>
+
         </div>
 
-        <div className="container py-5">
+        <div className="py-5">
 
           {/* <!-- Formación Cívica --> */}
           <div className="row align-items-center text-white">
@@ -59,7 +60,7 @@ function AreasAccion() {
         <div className="col-md-12"></div>
         <div className="container my-4">
           <div className="row justify-content-center">
-            <div className="col-md-4 d-flex justify-content-center mb-4">
+            <div className="col-12 col-lg-4 d-flex justify-content-center mb-4">
               <div className="card">
                 <div className="card-body">
                   <img
@@ -77,7 +78,7 @@ function AreasAccion() {
                 </div>
               </div>
             </div>
-            <div className="col-md-4 d-flex justify-content-center mb-4">
+            <div className="col-12 col-lg-4 d-flex justify-content-center mb-4">
               <div className="card">
                 <div className="card-body">
                   <img
@@ -95,7 +96,7 @@ function AreasAccion() {
                 </div>
               </div>
             </div>
-            <div className="col-md-4 d-flex justify-content-center mb-4">
+            <div className="col-12 col-lg-4 d-flex justify-content-center mb-4">
               <div className="card">
                 <div className="card-body">
                   <img
@@ -115,7 +116,7 @@ function AreasAccion() {
           </div>
         </div>
       </section>
-    </>
+    </div>
 
 
 

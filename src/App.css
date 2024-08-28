@@ -5,13 +5,12 @@
   padding-left: 30px;
 }
 
-
-
 /* Estilos personalizados */
 .action-section,
 .quienes-somos,
 .btn-contact {
-  background-color: #e60000; /* Rojo de fondo */
+  background-color: #e60000;
+  /* Rojo de fondo */
 
 }
 
@@ -21,24 +20,27 @@
   color: black;
 }
 
-.acordeon-height img,
+.acordeon-height {
+  position: relative;
+}
+
+.acordeon-height .team-images,
 .acordeon-height .user-info {
   height: 200px;
+  max-height: 200px;
+  transition: height 2s ease;
 }
 
 .user-info {
   background-color: #f7e4e8;
-  overflow-y: hidden;
 }
 
 .user-info:hover {
   height: fit-content;
-}
-
-.user-info:hover p {
+  /* TODO: Que el sobrante no desplace todo*/
   display: block !important;
+  z-index: 1000;
 }
-
 
 .accordion-custom .accordion-body {
   background-color: #ffeeee;
@@ -80,6 +82,27 @@
   padding: 10px 30px;
 }
 
+.team-images {
+  background-size: cover !important;
+  background-position: top !important;
+}
+
+.auto1 {
+  background-image: url('../../img/JUAN PABLO PREZZOLI.jpg');
+}
+
+.auto2 {
+  background-image: url('../../img/TOMAS LANZILLOTTA.jpg');
+}
+
+.auto3 {
+  background-image: url('../../img/MARIELA GARCÍA.jpg');
+}
+
+.auto4 {
+  background-image: url('../../img/JUAN PABLO PREZZOLI.jpg');
+}
+
 /* Estilo del contenedor Impacto */
 
 /* .wave-section{
@@ -87,3 +110,9 @@
     height: 100px;
     overflow: hidden;
 } */
+
+@media only screen and (min-width : 960px) {
+.navbar-nav .border-bottom {
+  border-bottom: 0px !important
+}
+}
