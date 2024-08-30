@@ -3,7 +3,7 @@ import "../App.css";
 
 const ContactForm = () => {
     return (
-        <div className="container" id="contacto">
+        <div className="container">
         <div className="row justify-content-center align-items-center p-lg-5">
             <form className="form-container w-100 p-3">
                 <div className="text-white mb-4 h1 p-4">Contacto</div>

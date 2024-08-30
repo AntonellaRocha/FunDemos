@@ -4,10 +4,10 @@ import "../App.css";
 function Impacto() {
   return (
     <>
-    <div className="quienes-somos ">
-      {/* <section className="wave-section"></section> */}
+    <div className="quienes-somos">
+      <div className="wave-section bg-white mx-auto"></div>
 
-      <section className="container" id="impacto">
+      <section className="container">
         <div className="py-5">
           <div className="row">
             {/* Contenedor de "Impacto" */}
@@ -22,15 +22,15 @@ function Impacto() {
                 <span className="fs-1 fw-bolder mt-1">ChallengeFunDemos / MSA</span> {/* Alineación centrada en pantallas pequeñas */}
             </div>
 
-            <div className="mb-5">
+            <div className="mb-5 px-2">
               <div className="justify-content-center text-white"> {/* Margen más pequeño en pantallas pequeñas */}
-                <p className="h3 text-align-center fw-bold lh-sm my-5"> {/* Texto más pequeño en pantallas pequeñas */}
-                  10 días increíbles en los que 12 chicos y chicas de las fundaciones Media Pila”, Empujar e Integrar”, pudieron poner en práctica lo aprendido en sus cursos de programación y conocer cómo es el trabajo en equipo en un proyecto de tecnología como ámbito profesional.
+                <p className="h3 text-align-center fw-medium lh-sm my-5"> {/* Texto más pequeño en pantallas pequeñas */}
+                  10 días increíbles en los que 12 chicos y chicas de las fundaciones "Media Pila”, "Empujar" e "Integrar”, pudieron poner en práctica lo aprendido en sus cursos de programación y conocer cómo es el trabajo en equipo en un proyecto de tecnología como ámbito profesional.
                 </p>
-                <p className="h3 text-align-center fw-bold lh-sm mb-5">
+                <p className="h3 text-align-center fw-medium lh-sm mb-5">
                   Los participantes trabajaron en un desafío preparado por los referentes de Grupo MSA y se llevaron una experiencia profesional real, pasando por todo el recorrido de desarrollo de un proyecto, trabajando en equipo con los diferentes roles de los equipos de IT MSA, e interactuando con todas las áreas de la compañía.
                 </p>
-                <p className="h3 text-align-center fw-bold lh-sm mb-5">
+                <p className="h3 text-align-center fw-medium lh-sm mb-5">
                   Además de programar los chicos y chicas que participaron, tuvieron su inducción, presentaron la demo del proyecto, realizaron una retro y se llevaron en el feedback de cierre valiosas recomendaciones y su perfil conductual.
                 </p>
               </div>
@@ -80,7 +80,7 @@ function Impacto() {
             <p className="mb-5 pt-2">
               Estamos trabajando en el diagnóstico, reporte de sustentabilidad 2025 y programa de compensación ambiental, de Grupo MSA, la empresa de tecnología Argentina que está generando un alto impacto de innovación en toda la región con sus proyectos electorales, de entretenimiento tecnológico y de diseño.
             </p>
-            <p className="mb-5 pt-2">
+            <p className="mb-5 pt-2" id="contacto">
               De este modo acompañamos a la empresa en su objetivo de continuar innovando con su tecnología a las sociedades alrededor de la región enfocándose en reducir el impacto ambiental de sus proyectos.
             </p>
           </div>

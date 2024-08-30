@@ -9,10 +9,23 @@
 .action-section,
 .quienes-somos,
 .btn-contact {
-  background-color: #e60000;
+  background-color: #ec1d23;
   /* Rojo de fondo */
 
 }
+
+/* Estilo del contenedor Impacto - Areas de acción*/
+
+.wave-section{
+  position: relative;
+  background-color: #fff;
+  background-image: url('/img/wave.png'); /* Ruta a tu imagen PNG */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  padding-top: 100px; /* Ajusta según sea necesario para que el contenido no esté cubierto por la ola */
+}
+
 
 /* Estilos acordeon */
 .accordion-custom .accordion-button {
@@ -103,16 +116,9 @@
   background-image: url('../../img/JUAN PABLO PREZZOLI.jpg');
 }
 
-/* Estilo del contenedor Impacto */
-
-/* .wave-section{
-    background-color: #e60000;
-    height: 100px;
-    overflow: hidden;
-} */
 
 @media only screen and (min-width : 960px) {
-.navbar-nav .border-bottom {
-  border-bottom: 0px !important
-}
+  .navbar-nav .border-bottom {
+    border-bottom: 0px !important
+  }
 }

@@ -4,7 +4,8 @@ import "../App.css";
 function AreasAccion() {
   return (
     <div className="action-section">
-      <section className="container py-5" id="areas-accion">
+      <div className="wave-section bg-white mx-auto"></div>
+      <section className="container py-5">
 
         <div className="d-flex mb-5">
 
@@ -108,7 +109,7 @@ function AreasAccion() {
                   <ul className="d-block p-2 ms-4 text-muted">
                     <li className="p-2">Medición y Compensación del impacto ambiental de proyectos tecnológicos, y reportes de sustentabilidad </li>
                     <li className="p-2">Programas de reciclaje de tecnología y campañas de concienciación</li>
-                    <li className="p-2">Soluciones tecnológicas para reducir la huella de carbono</li>
+                    <li className="p-2"  id="autoridades">Soluciones tecnológicas para reducir la huella de carbono</li>
                   </ul>
                 </div>
               </div>

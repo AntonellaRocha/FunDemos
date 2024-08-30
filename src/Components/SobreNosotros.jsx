@@ -6,7 +6,7 @@ function SobreNosotros() {
     <><section className="quienes-somos">
       <div className="container text-center text-lg-start py-5">
         <div className="fw-bold h1 mb-4 text-white">¿Quiénes somos?</div>
-        <div className="fs-3 text-white lh-s">
+        <div className="fs-3 text-white lh-s fw-medium">
           <p>
             Nacimos en la provincia de Neuquén, Argentina, con el objeto de
             abocarnos a la capacitación y formación de la ciudadanía,
@@ -35,7 +35,7 @@ function SobreNosotros() {
             relación a nuestro propósito.
           </p>
           <div className="text-center">
-            <img src="/img/LOGO OBJETIVOS.png" className="w-75 mt-4" alt="objetivos"></img>
+            <img src="/img/LOGO OBJETIVOS.png" className="w-75 mt-4" alt="objetivos" id="areas-accion"></img>
           </div>
         </div>
       </section></>

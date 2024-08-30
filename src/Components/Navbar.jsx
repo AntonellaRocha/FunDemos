@@ -4,31 +4,6 @@ import "../App.css";
 function Navbar() {
   return (
     <>
-      {/* <nav className="navbar navbar-expand-lg bg-white text-uppercase fixed-top" id="mainNav">
-        <div className="logo-position">
-          <a className="navbar-brand" href="./index.html" aria-label="FunDemos" id="home">
-            <img className="logo mx-5 ms-5 px-3 img-fluid"
-              src="/img/LOGO FUNDEMOS.png"
-              alt="Logo"
-            ></img>
-          </a>
-        </div>
-        <div className="">
-          <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-            <span className="navbar-toggler-icon"></span>
-          </button>
-          <div className="collapse navbar-collapse" id="navbarResponsive">
-            <ul className="navbar-nav ms-auto">
-              <li className="nav-item mx-0 mx-lg-3 border-bottom"><a className="nav-link text-dark fw-medium" href="#quienes-somos">¿Quiénes somos?</a></li>
-              <li className="nav-item mx-0 mx-lg-3 border-bottom"><a className="nav-link text-dark fw-medium" href="#areas-accion">Áreas de Acción </a></li>
-              <li className="nav-item mx-0 mx-lg-3 border-bottom"><a className="nav-link text-dark fw-medium" href="#autoridades">Autoridades</a></li>
-              <li className="nav-item mx-0 mx-lg-3 border-bottom"><a className="nav-link text-dark fw-medium" href="#impacto">Impacto</a></li>
-              <li className="nav-item btn-contact me-md-2 rounded-3 mx-0 mx-lg-4 px-4"><a className="nav-link text-white fw-medium" href="#contacto">Contacto</a></li>
-            </ul>
-          </div>
-        </div>
-      </nav> */}
-
       <nav className="navbar navbar-expand-lg bg-body-tertiary fixed-top">
         <div className="container-fluid px-5">
         <a className="navbar-brand" href="./index.html" aria-label="FunDemos" id="home">
@@ -42,11 +17,11 @@ function Navbar() {
           </button>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav ms-auto">
-              <li className="nav-item mx-0 mx-lg-3 border-bottom"><a className="nav-link text-dark fw-medium" href="#quienes-somos">¿Quiénes somos?</a></li>
-              <li className="nav-item mx-0 mx-lg-3 border-bottom"><a className="nav-link text-dark fw-medium" href="#areas-accion">Áreas de Acción </a></li>
-              <li className="nav-item mx-0 mx-lg-3 border-bottom"><a className="nav-link text-dark fw-medium" href="#autoridades">Autoridades</a></li>
-              <li className="nav-item mx-0 mx-lg-3 border-bottom"><a className="nav-link text-dark fw-medium" href="#impacto">Impacto</a></li>
-              <li className="nav-item btn-contact me-md-2 rounded-3 mx-0 mx-lg-4 px-4"><a className="nav-link text-white fw-medium" href="#contacto">Contacto</a></li>
+              <li className="nav-item mx-0 mx-lg-3 border-bottom border-dark-subtle h5"><a className="nav-link text-dark fw-medium" href="#quienes-somos">¿Quiénes somos?</a></li>
+              <li className="nav-item mx-0 mx-lg-3 border-bottom border-dark-subtle h5"><a className="nav-link text-dark fw-medium" href="#areas-accion">Áreas de Acción </a></li>
+              <li className="nav-item mx-0 mx-lg-3 border-bottom border-dark-subtle h5"><a className="nav-link text-dark fw-medium" href="#autoridades">Autoridades</a></li>
+              <li className="nav-item mx-0 mx-lg-3 border-bottom border-dark-subtle h5"><a className="nav-link text-dark fw-medium" href="#impacto">Impacto</a></li>
+              <li className="nav-item btn-contact me-md-2 rounded-3 mx-0 mx-lg-4 px-4 py-1 h5" style={{ width: '150px' }}><a className="nav-link text-white fw-medium text-center" href="#contacto">Contacto</a></li>
             {/* TODO: Boton largo */}
             </ul>
           </div>
