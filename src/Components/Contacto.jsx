@@ -17,7 +17,7 @@ const ContactForm = () => {
                 </div>
                 <div className="mb-3 mx-auto p-4">
                     <label htmlFor="message" className="form-label h5">Mensaje</label>
-                    <textarea className="form-control" placeholder='Mensaje' id="message" rows="4"></textarea>
+                    <textarea className="form-control" placeholder="Mensaje" id="message" rows="4"></textarea>
                 </div>
                 <button type="submit" className="btn btn-light text-center fs-5 d-block mx-auto mb-4 pb-3 py-3 fw-bold">Enviar</button>
             </form>
