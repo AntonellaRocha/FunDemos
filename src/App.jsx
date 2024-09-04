@@ -6,6 +6,9 @@ import {Navbar, SobreNosotros, AreasAccion, Autoridades, Impacto, Contacto, Foot
 /* Components css */
 import "../src/App.css"
 
+/* Componentes EmailJS */
+import 'emailjs-com';
+
 function App() {
   return (
     <>

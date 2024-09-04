@@ -16,15 +16,16 @@
 
 /* Estilo del contenedor Impacto - Areas de acción*/
 
-.wave-section{
+.wave-section {
   position: relative;
   background-color: #fff;
-  background-image: url('/img/wave.png'); /* Ruta a tu imagen PNG */
+  background-image: url('/img/wave.png');
+  /* Ruta imagen PNG */
   mask-image: linear-gradient(transparent);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top center;
-  padding-top: 100px; /* Ajusta según sea necesario para que el contenido no esté cubierto por la ola */
+  padding-top: 100px;
 }
 
 
