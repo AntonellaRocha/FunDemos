@@ -19,9 +19,9 @@ function AreasAccion() {
 
           {/* <!-- Formación Cívica --> */}
           <div className="row align-items-center text-white">
-            <h3 className="fs-1 fw-bold col-4">Formación Cívica</h3>
+            <h3 className="fs-1 fw-bold col-12 col-md-4">Formación Cívica</h3>
 
-            <div className="col-8">
+            <div className="col-12 col-md-8 mt-4 mt-md-0">
               <div className="text-dark p-3 shadow-sm card mb-3">
                 <h5 className="fw-bold">Desarrollo cívico</h5>
                 <p className="fs-5 fw-lighter">¿Qué hacemos respecto de la complejidad del impacto tecnológico en el ecosistema electoral?</p>
@@ -40,10 +40,10 @@ function AreasAccion() {
 
           {/*  <!-- Desarrollo Sustentable --> */}
           <div className="row align-items-center text-white">
-            <h3 className="fs-1 fw-bold col-4">Desarrollo Sustentable</h3>
+            <h3 className="fs-1 fw-bold col-12 col-md-4">Desarrollo Sustentable</h3>
 
 
-            <div className="col-8">
+            <div className="col-12 col-md-8 mt-4 mt-md-0">
               <div className="text-dark p-3 shadow-sm card mb-3">
                 <h5 className="fw-bold">Empleabilidad</h5>
                 <p className="fs-5 fw-lighter">¿Qué hacemos respecto de la complejidad del impacto tecnológico en el mundo del empleo?</p>
@@ -65,7 +65,7 @@ function AreasAccion() {
               <div className="card">
                 <div className="card-body">
                   <img
-                    src="/img/PazJusticiaInstituciones.png"
+                    src="/img/PAZ-JUSTICIA-INSTITUCIONES.png"
                     className="card-img-top"
                     alt="..." />
 
@@ -83,7 +83,7 @@ function AreasAccion() {
               <div className="card">
                 <div className="card-body">
                   <img
-                    src="/img/IndustriaInnovacion.png"
+                    src="/img/INDUSTRIA-INNOVACION.png"
                     className="card-img-top"
                     alt="..." />
                   <h3 className="text-center pt-4">Empleabilidad</h3>
@@ -101,7 +101,7 @@ function AreasAccion() {
               <div className="card">
                 <div className="card-body">
                   <img
-                    src="/img/AccionPorElClima.png"
+                    src="/img/ACCION-POR-EL-CLIMA.png"
                     className="card-img-top"
                     alt="..." />
                   <h3 className="text-center pt-4">Ambiente</h3>

@@ -19,7 +19,7 @@ function Impacto() {
 
             {/* Contenedor de Texto Principal */}
             <div className="col-12 col-lg-8 d-flex justify-content-end text-white align-items-end">
-                <span className="fs-1 fw-bolder mt-1">ChallengeFunDemos / MSA</span> {/* Alineación centrada en pantallas pequeñas */}
+                <span className="fs-1 fw-bolder mt-5 mt-md-1">ChallengeFunDemos / MSA</span> {/* Alineación centrada en pantallas pequeñas */}
             </div>
 
             <div className="mb-5 px-2">
