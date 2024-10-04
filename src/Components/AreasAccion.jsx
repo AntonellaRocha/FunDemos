@@ -5,12 +5,12 @@ function AreasAccion() {
   return (
     <div className="action-section">
       <div className="wave-section bg-white mx-auto"></div>
-      <section className="container py-5">
+      <section className="container py-5 px-lg-5">
 
         <div className="d-flex mb-5">
 
           <div className="bg-white mx-lg-auto px-5 py-3 rounded-3">
-            <span className="fs-1 fw-bold text-black">Areas de Acción</span>
+            <span className="fs-2 fw-bold text-black">Areas de Acción</span>
           </div>
 
         </div>
@@ -19,7 +19,7 @@ function AreasAccion() {
 
           {/* <!-- Formación Cívica --> */}
           <div className="row align-items-center text-white">
-            <h3 className="fs-1 fw-bold col-12 col-md-4">Formación Cívica</h3>
+            <h3 className="fs-2 fw-bold col-12 col-md-4">Formación Cívica</h3>
 
             <div className="col-12 col-md-8 mt-4 mt-md-0">
               <div className="text-dark p-3 shadow-sm card mb-3">
@@ -29,18 +29,15 @@ function AreasAccion() {
             </div>
           </div>
 
-
-
           <div className="row justify-content-center my-4">
             <div className="col-12">
               <div class="pb-2 mb-4 border-bottom border-white"></div>
             </div>
           </div>
 
-
           {/*  <!-- Desarrollo Sustentable --> */}
           <div className="row align-items-center text-white">
-            <h3 className="fs-1 fw-bold col-12 col-md-4">Desarrollo Sustentable</h3>
+            <h3 className="fs-2 fw-bold col-12 col-md-4">Desarrollo Sustentable</h3>
 
 
             <div className="col-12 col-md-8 mt-4 mt-md-0">
@@ -59,7 +56,7 @@ function AreasAccion() {
 
 
         <div className="col-md-12"></div>
-        <div className="container my-4">
+        <div className="container my-4 px-lg-5">
           <div className="row justify-content-center">
             <div className="col-12 col-lg-4 d-flex justify-content-center mb-4">
               <div className="card">

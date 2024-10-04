@@ -3,10 +3,11 @@ import "../App.css";
 
 function SobreNosotros() {
   return (
-    <><section className="quienes-somos">
+    <>
+    <section className="quienes-somos">
       <div className="container text-center text-lg-start py-5">
-        <div className="fw-bold h1 mb-4 text-white">¿Quiénes somos?</div>
-        <div className="fs-3 text-white lh-s fw-medium">
+        <div className="fw-bold h1 mb-4 text-white px-lg-5">¿Quiénes somos?</div>
+        <div className="fs-4 text-white lh-s fw-medium px-lg-5">
           <p>
             Nacimos en la provincia de Neuquén, Argentina, con el objeto de
             abocarnos a la capacitación y formación de la ciudadanía,
@@ -26,21 +27,21 @@ function SobreNosotros() {
           </p>
         </div>
       </div>
-    </section><section className="que-nos-mueve pb-5">
-        <div className="container text-center text-lg-start">
-          <div className="fw-bold h1 pt-5">¿Qué nos mueve?</div>
-          <p className="fs-2 lh-s">
+    </section>
+    <section className="que-nos-mueve pb-5">
+        <div className="container text-center text-lg-start px-lg-5">
+          <div className="fw-bold h1 pt-5 mb-3">¿Qué nos mueve?</div>
+          <p className="fs-4 lh-s">
             Trabajamos alineados a los ODS adoptados por las Naciones Unidas,
             enfocándonos en las áreas donde podemos realizar mayores aportes en
             relación a nuestro propósito.
           </p>
           <div className="text-center">
-            <img src="/img/LOGO OBJETIVOS.png" className="w-75 mt-4" alt="objetivos" id="areas-accion"></img>
+            <img src="/img/LOGO OBJETIVOS.png" className="w-50 mt-4" alt="objetivos" id="areas-accion"></img>
           </div>
         </div>
-      </section></>
-
-
+      </section>
+      </>
   );
 }
 

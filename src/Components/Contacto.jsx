@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import emailjs from 'emailjs-com';
-import "../App.css";
+import"../App.css";
 
 const ContactForm = () => {
     const [formData, setFormData] = useState({
@@ -42,17 +42,17 @@ const ContactForm = () => {
     };
 
     return (
-        <div className="container">
+        <div className="container col-md-8 col-lg-6">
             <div className="row justify-content-center align-items-center p-lg-5">
-                <form className="form-container w-100 p-3" onSubmit={sendEmail}>
-                    <div className="text-white mb-4 h1 p-4">Contacto</div>
+                <form className="form-container w-100 p-5" onSubmit={sendEmail}>
+                    <div className="text-white mb-4 h2">Contacto</div>
 
-                    <div className="mb-3 mx-auto p-4">
-                        <label htmlFor="name" className="form-label h5">Nombre</label>
+                    <div className="mb-3 mx-auto">
+                        <label htmlFor="name" className="form-label fs-6">Nombre</label>
                         <input
                             type="text"
                             placeholder="Nombre"
-                            className="form-control p-4"
+                            className="form-control"
                             id="name"
                             name="name"
                             value={formData.name}
@@ -61,12 +61,12 @@ const ContactForm = () => {
                         />
                     </div>
 
-                    <div className="mb-3 mx-auto p-4">
-                        <label htmlFor="email" className="form-label h5">Email</label>
+                    <div className="mb-3 mx-auto">
+                        <label htmlFor="email" className="form-label fs-6">Email</label>
                         <input
                             type="email"
                             placeholder="Email"
-                            className="form-control p-4"
+                            className="form-control"
                             id="email"
                             name="email"
                             value={formData.email}
@@ -75,8 +75,8 @@ const ContactForm = () => {
                         />
                     </div>
 
-                    <div className="mb-3 mx-auto p-4">
-                        <label htmlFor="message" className="form-label h5">Mensaje</label>
+                    <div className="mb-3 mx-auto">
+                        <label htmlFor="message" className="form-label fs-6">Mensaje</label>
                         <textarea
                             className="form-control"
                             placeholder="Mensaje"
@@ -91,7 +91,7 @@ const ContactForm = () => {
 
                     <button
                         type="submit"
-                        className="btn btn-light text-center fs-5 d-block mx-auto mb-4 pb-3 py-3 fw-bold"
+                        className="btn btn-light text-center fs-5 d-block mx-auto pb-3 py-3 fw-bold"
                     >
                         Enviar
                     </button>

@@ -9,28 +9,28 @@ function Impacto() {
 
       <section className="container">
         <div className="py-5">
-          <div className="row">
+          <div className="row px-lg-5">
             {/* Contenedor de "Impacto" */}
             <div className="col-12 col-lg-4 d-flex justify-content-start justify-content-lg-end">
               <div className="bg-white p-5 py-4 rounded-3 me-3">
-                <span className="fw-bold h1 m-5 text-black">Impacto</span>
+                <span className="fw-bold h3 m-5 text-black">Impacto</span>
               </div>
             </div>
 
             {/* Contenedor de Texto Principal */}
             <div className="col-12 col-lg-8 d-flex justify-content-end text-white align-items-end">
-                <span className="fs-1 fw-bolder mt-5 mt-md-1">ChallengeFunDemos / MSA</span> {/* Alineación centrada en pantallas pequeñas */}
+                <span className="fs-2 fw-bolder mt-5 mt-md-1">ChallengeFunDemos / MSA</span> {/* Alineación centrada en pantallas pequeñas */}
             </div>
 
             <div className="mb-5 px-2">
-              <div className="justify-content-center text-white"> {/* Margen más pequeño en pantallas pequeñas */}
-                <p className="h3 text-align-center fw-medium lh-sm my-5"> {/* Texto más pequeño en pantallas pequeñas */}
+              <div className="justify-content-center text-white pt-4"> {/* Margen más pequeño en pantallas pequeñas */}
+                <p className="fs-4 text-align-center fw-medium lh-sm my-4"> {/* Texto más pequeño en pantallas pequeñas */}
                   10 días increíbles en los que 12 chicos y chicas de las fundaciones "Media Pila”, "Empujar" e "Integrar”, pudieron poner en práctica lo aprendido en sus cursos de programación y conocer cómo es el trabajo en equipo en un proyecto de tecnología como ámbito profesional.
                 </p>
-                <p className="h3 text-align-center fw-medium lh-sm mb-5">
+                <p className="fs-4 text-align-center fw-medium lh-sm mb-4">
                   Los participantes trabajaron en un desafío preparado por los referentes de Grupo MSA y se llevaron una experiencia profesional real, pasando por todo el recorrido de desarrollo de un proyecto, trabajando en equipo con los diferentes roles de los equipos de IT MSA, e interactuando con todas las áreas de la compañía.
                 </p>
-                <p className="h3 text-align-center fw-medium lh-sm mb-5">
+                <p className="fs-4 text-align-center fw-medium lh-sm mb-4">
                   Además de programar los chicos y chicas que participaron, tuvieron su inducción, presentaron la demo del proyecto, realizaron una retro y se llevaron en el feedback de cierre valiosas recomendaciones y su perfil conductual.
                 </p>
               </div>
@@ -40,7 +40,7 @@ function Impacto() {
 
       </section>
 
-        <div className="d-flex py-4 px-0 px-lg-4 mb-4 container-lg">
+        <div className="d-flex py-4 px-0 px-lg-5 mb-4 container-lg">
           <div className="position-relative">
             <div id="carouselExampleFade" className="carousel slide carousel-fade">
               <div className="carousel-inner rounded-3">
@@ -74,13 +74,13 @@ function Impacto() {
       </div>
       
       <section className="diagnostico">
-        <div className="container">
-          <div className="fw-bold display-5 mb-4 mx-auto pt-5 mb-5 lh-1">Diagnóstico, Reporte de Sustentabilidad y Programa de compensación ambiental, de Grupo MSA </div>
-          <div className="fs-2 text-start lh-sm fw-bold">
-            <p className="mb-5 pt-2">
+        <div className="container px-lg-5">
+          <div className="fw-bold fs-1 mb-4 mx-auto pt-5 mb-5 lh-1 px-lg-5">Diagnóstico, Reporte de Sustentabilidad y Programa de compensación ambiental, de Grupo MSA </div>
+          <div className="fs-4 text-start lh-sm fw-bold">
+            <p className="mb-4 pt-2">
               Estamos trabajando en el diagnóstico, reporte de sustentabilidad 2025 y programa de compensación ambiental, de Grupo MSA, la empresa de tecnología Argentina que está generando un alto impacto de innovación en toda la región con sus proyectos electorales, de entretenimiento tecnológico y de diseño.
             </p>
-            <p className="mb-5 pt-2" id="contacto">
+            <p className="mb-4 pt-2" id="contacto">
               De este modo acompañamos a la empresa en su objetivo de continuar innovando con su tecnología a las sociedades alrededor de la región enfocándose en reducir el impacto ambiental de sus proyectos.
             </p>
           </div>
